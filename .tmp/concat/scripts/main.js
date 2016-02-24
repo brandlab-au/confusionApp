@@ -297,7 +297,14 @@ negSuf:"",posPre:"\u00a4",posSuf:""}]},id:"en-us",pluralCat:function(a,c){var e=
 
 angular.module('confusionApp',[])
 
-      .controller('menuController',['$scope', function($scope) {
+     
+
+        ;
+;'use strict';
+
+angular.module('confusionApp', [])
+
+        .controller('menuController',['$scope', function($scope) {
 
                 $scope.tab=1;
                 $scope.filtText = " ";
@@ -455,5 +462,4 @@ angular.module('confusionApp',[])
             }])
 
 
-
-        ;
+;
