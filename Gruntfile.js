@@ -146,7 +146,7 @@ watch: {
           base:{
                path: 'dist',
             options: {
-                index: 'menu.html',
+                index: 'index.html',
                 maxAge: 300000
             }
           }
