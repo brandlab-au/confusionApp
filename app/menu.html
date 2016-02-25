@@ -1,33 +1,4 @@
-<!DOCTYPE html>
-<!--work with angular module below-->
-<html lang="en" ng-app="confusionApp">
 
-<head>
-     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head
-         content must come *after* these tags -->
-    <title>Ristorante ConFusion:Menu</title>
-        <!-- Bootstrap -->
-        <!-- Bootstrap -->
-<!-- build:css styles/main.css -->
-<link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="../bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
-<link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-<link href="styles/bootstrap-social.css" rel="stylesheet">
-<link href="styles/mystyles.css" rel="stylesheet">
-<!-- endbuild -->
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-
-<body>
 <div class="container">
 <!--bread--->
 <div class="row row-content-static-top">
@@ -40,67 +11,56 @@
           </div>
           <div class="container">
           <div class="col-xs-0">
-             <h3>The Menu jon</h3>
+             <h3>The Menu</h3>
              <hr>
           </div>
             </div>
       </div>
 <!--bread--->
 
+<div class="row row-content">
+<!--we now have a list of js obj--->
+<div class="row row-content" ng-controller="MenuController">
 
+        <div class="col-xs-12">
+          <button ng-click="toggleDetails()" class="btn btn-xs btn-primary pull-right" type="button">
+    {{showDetails ? 'Hide Details':'Show Details'}}
+</button>
+          <ul class="media-list">
+            <ul class="nav nav-tabs" role="tablist">
+              <li ng-class="{active:isSelected(1)}"><a ng-click="select(1)"  aria-controls="all menu" role="tab">Menu</a></li>
+              <li ng-class="{active:isSelected(2)}"><a ng-click="select(2)"  aria-controls="appetizers" role="tab">Appatizers</a></li>
+              <li ng-class="{active:isSelected(3)}"><a ng-click="select(3)"  aria-controls="mains" role="tab">Mains</a></li>
+              <li ng-class="{active:isSelected(4)}"><a ng-click="select(4)"  aria-controls="desserts" role="tab">Desserts</a></li>
+            </ul>
+          <!--ng-repeat directive-->
+              <div class="tab-content">
+                <ul class="media-list tab-pane fade in active">
+                  <li class="media" ng-repeat="dish in dishes | filter:filtText">
+                   <div class="media-left media-middle">
+                       <a href="#">
+                       <img class="media-object img-thumbnail"
+                        ng-src={{dish.image}} alt="Uthappizza">
+                       </a>
+                   </div>
+                    <div class="media-body">
+                     <!--property from Js object ng-init angular exprecion -->
+                       <h2 class="media-heading">{{dish.name}}
+                        <span class="label label-danger">{{dish.label}}</span>
+                        <!--filter angular exprecion -->
+                        <span class="badge">{{dish.price | currency}}</span></h2>
+                        <p ng-show="showDetails">{{dish.description}}</p>
 
-        <div class="row row-content">
-        <!--we now have a list of js obj--->
-          <div class="row row-content" ng-controller="menuController">
+                        <!-- exprecion dish{{}} -->
 
-                        <div class="col-xs-12">
-                          <button ng-click="toggleDetails()" class="btn btn-xs btn-primary pull-right" type="button">
-                    {{showDetails ? 'Hide Details':'Show Details'}}
-                </button>
-                          <ul class="media-list">
-                            <ul class="nav nav-tabs" role="tablist">
-                              <li ng-class="{active:isSelected(1)}"><a ng-click="select(1)"  aria-controls="all menu" role="tab">Menu</a></li>
-                              <li ng-class="{active:isSelected(2)}"><a ng-click="select(2)"  aria-controls="appetizers" role="tab">Appatizers</a></li>
-                              <li ng-class="{active:isSelected(3)}"><a ng-click="select(3)"  aria-controls="mains" role="tab">Mains</a></li>
-                              <li ng-class="{active:isSelected(4)}"><a ng-click="select(4)"  aria-controls="desserts" role="tab">Desserts</a></li>
-                            </ul>
-                          <!--ng-repeat directive-->
-                              <div class="tab-content">
-                                <ul class="media-list tab-pane fade in active">
-                                  <li class="media" ng-repeat="dish in dishes | filter:filtText">
-                                   <div class="media-left media-middle">
-                                       <a href="#">
-                                       <img class="media-object img-thumbnail"
-                                        ng-src={{dish.image}} alt="Uthappizza">
-                                       </a>
-                                   </div>
-                                    <div class="media-body">
-                                     <!--property from Js object ng-init angular exprecion -->
-                                       <h2 class="media-heading">{{dish.name}}
-                                        <span class="label label-danger">{{dish.label}}</span>
-                                        <!--filter angular exprecion -->
-                                        <span class="badge">{{dish.price | currency}}</span></h2>
-                                        <p ng-show="showDetails">{{dish.description}}</p>
+               <!--ng-model directive two way binding to dish.comment -->
+                    </div>
+                 </li>
+               </ul>
+              <!--end of tab content -->
+             </div>
+        <!--end of whole meun and content -->
+       </div>
+</div>
+</div>
 
-                                        <!-- exprecion dish{{}} -->
-
-                               <!--ng-model directive two way binding to dish.comment -->
-                                    </div>
-                                 </li>
-                               </ul>
-                              <!--end of tab content -->
-                             </div>
-                        <!--end of whole meun and content -->
-                       </div>
-        </div>
-    </div>
-
-    <!-- build:js scripts/main.js -->
-        <script src="../bower_components/angular/angular.min.js"></script>
-        <script src="scripts/app.js"></script>
-            <script src="scripts/controllers.js"></script>
-    <!-- endbuild -->
-
-</body>
-
-</html>
