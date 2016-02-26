@@ -1,10 +1,12 @@
 # ConfusionApp
 ## This project utilizes grunt
 **grunt serve**
-Projet utilizes angular 
-active files in app dir
-This site was built using [angularRoute bower install angular-router -S](http://bower.io/)
-Active files in app dir
+-Projet utilizes angular 
+
+-This site was built using
+[angularRoute bower install angular-router -S](http://bower.io/)
+
+- Active files in app dir
 - The 3 html pages are not showing using ng-view
 - Controller setup MenuController
 - Data in services js
