@@ -8,12 +8,14 @@
 
 - Active files in app dir
 - The 3 html pages are not showing using ng-view
-- Controller setup MenuController
+- you can see they work with ng-include
+- Controller setup MenuController 
+- Problem is probably the injection dependency of ngRouter
 - Data in services js
 - More data needs to be moved to sevices for DishController
 
 - [ ] Finish angular view problem.
-- [ ] Push my commits to GitHub.
+- [ ] Push my comments to GitHub.
 - [ ] Then move data all to services.
 
 
