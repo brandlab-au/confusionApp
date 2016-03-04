@@ -207,7 +207,6 @@ angular.module('confusionApp')
         })
 
         .factory('corporateFactory', function() {
-    
             var corpfac = {};
     
             var leadership = [

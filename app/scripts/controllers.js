@@ -99,7 +99,7 @@ angular.module('confusionApp')
             function($scope, menuFactory, corporateFactory) {
 
             $scope.featured_dish = menuFactory.getDish(3);
-            $scope.promotion_dish = menuFactory.getDish(3);
+            $scope.promotion_dish = menuFactory.getPromotion(0);
             $scope.chief = corporateFactory.getLeader(3);
 
         }])
