@@ -14,14 +14,11 @@
 
 
 ## New app folder project utilizes index.html page ui.rounter
-###### But not working  
+###### Working just commentes to data base left
 
-- Problem not showing anthing up
-- Data in services js
-- app.js uses ui.router but not showing templates
-- Please check header and footer maybe files scripts not being pulled in
+- Working with states
 
-- [ ] Finish angular view problem.
+- [ ] Finish angular contact sheet so up date services.
 - [ ] Push my comments to GitHub.
 - [ ] Need to use http get and push to push comments to services.js.
 
