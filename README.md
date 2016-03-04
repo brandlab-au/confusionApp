@@ -9,7 +9,7 @@
 
 ## App folder project ui.rounter
 ###### Working app folder
-
+- gup dis file working gulp watch not working
 - Working with states
 
 - [ ] Implement http protocol to communicat with locale server.
