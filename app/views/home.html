@@ -1,9 +1,7 @@
-
-    <div class="container" ng-controller="IndexController">
+<div  ng-controller="IndexController">
 
 <!---carousel---->
-<div class="row row-content">
- <div class="col-xs-12">
+
     <div id="mycarousel" class="carousel slide" data-ride="carousel">
        <!-- Indicators -->
        <ol class="carousel-indicators">
@@ -13,32 +11,34 @@
        </ol>
  <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img class="img-responsive"
-                 ng-src="{{promotion_dish.image}} " alt="Uthappizza">
-                <div class="carousel-caption">
-                <h2>Uthappizza  <span class="label label-danger">Hot</span> <span class="badge">$4.99</span></h2>
-                <p>A unique combination of Indian Uthappam (pancake) and
-                  Italian pizza, topped with Cerignola olives, ripe vine
-                  cherry tomatoes, Vidalia onion, Guntur chillies and
-                  Buffalo Paneer.</p>
-                <p><a class="btn btn-primary btn-xs" href="#">More &raquo;</a></p>
-                </div>
-            </div>
+<div class="item active">
+    <img class="img-responsive"
+     ng-src="{{promotion_dish.image}} " alt="Uthappizza">
+    <div class="carousel-caption">
+    <h2>Todo incluido <span class="label label-danger">El GYM</span> <span class="badge">Desde $40</span></h2>
+    <p>Mck tiene a todo para Usd.<a class="btn btn-primary btn-xs" href="#">Mass &raquo;</a></p>
+    <p></p>
+    </div>
+</div>
             <div class="item">
-                ...
-                <div class="carousel-caption">
-                <h2>Weekend Grand Buffet <span class="label label-danger label-xs">New</span></h2>
+                <img class="img-resoponsive"
+        ng-src="{{featured_dish.image}}"                 alt="gym">    
+                     <div class="carousel-caption">
+                <h2>Mck el mejore gimnasio de Quito <span class="label label-danger label-xs">New</span></h2>
                  ...
                 </div>
             </div>
             <div class="item">
                 ...
                 <div class="carousel-caption">
+                <h2>Mck el mejore gimnasio de Quito <span class="label label-danger label-xs">New</span></h2>
+                 ...
+                </div>
                  ...
                 </div>
             </div>
 <!-- Controls -->
+            
          <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
              <span class="sr-only">Previous</span>
@@ -49,9 +49,10 @@
          </a>            
             </div> <!-- close slides   -->       
         </div>
-    </div>
-</div>
-<!--carousel-->
+   
+<!--carousel-->      
+    
+<div class="container">
         <div class="row row-content">
             <div class="col-xs-12 col-sm-3 col-sm-push-9">
                 <p style="padding:20px;"></p>
@@ -129,6 +130,8 @@
             </div>
         </div>
     </div>
+        
+
 <script>
         $(document).ready(function(){
             $("#mycarousel").carousel( { interval: 2000 } );
