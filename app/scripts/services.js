@@ -95,8 +95,8 @@ angular.module('confusionApp')
                   image: 'images/vadonut.png',
                   category: 'appetizer', 
                   label:'New',
-                  price:'1.99',
-                  description:'A quintessential ConFusion experience, is it a vada or is it a donut?',
+                  price:'8.00',
+                  description:'Pasar y probar la clase de spinning a un dia ?',
                    comments: [
                        {
                            rating:5,
@@ -177,11 +177,11 @@ angular.module('confusionApp')
     var promotions = [
         {
                   _id:0,
-                  name:'Weekend Grand Buffet', 
+                  name:'Durante el día', 
                   image: 'images/spin_girl.png',
                   label:'New',
-                  price:'19.99',
-                  description:'Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person ',
+                  price:'8.00',
+                  description:'Esta mes y probar una clase de Pilates tenemos un especial de 2 personas por el precio de 1 incluso fuera de horas de recogida vamos a poner en una clase privada',
         }
 
     ];
