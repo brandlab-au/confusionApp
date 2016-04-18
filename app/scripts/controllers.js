@@ -98,10 +98,13 @@ angular.module('confusionApp')
         .controller('IndexController', ['$scope', 'menuFactory', 'corporateFactory', 
             function($scope, menuFactory, corporateFactory) {
 
-            $scope.featured_dish = menuFactory.getDish(3);
+            $scope.featured_dish = menuFactory.getDish(2);
+                
             $scope.promotion_dish = menuFactory.getPromotion(0);
+                
             $scope.chief = corporateFactory.getLeader(3);
-
+                
+             $scope.dish_new = menuFactory.getDish(1);
         }])
 
         .controller('AboutController', ['$scope', 'corporateFactory', 
