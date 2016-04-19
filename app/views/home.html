@@ -19,7 +19,7 @@ $('#myCarousel').carousel({
   </ol>
 
   <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
+<div class="carousel-inner" role="listbox">
     <div class="item active">
       <img class="img-responsive"
          ng-src="{{promotion_dish.image}} " alt="Uthappizza">
@@ -42,9 +42,9 @@ ng-src="{{dish_new.image}}" alt="gym">
 
     <div class="item">
       <img class="img-resoponsive"
-ng-src="{{dish_new.image}}"alt="gym">
+ng-src="{{spin.image}}"alt="gym">
     </div>
-  </div>
+</div>
 
   <!-- Left and right controls -->
   <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -55,84 +55,77 @@ ng-src="{{dish_new.image}}"alt="gym">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>    
-<!---End carousel---->
-  
+</div><!---End carousel---->    
+    
 <div class="container">
 <div class="row row-content">
-    <div class="col-xs-12 col-sm-3 col-sm-push-8">
+<!--    top photo row-->
+    <div class="col-xs-12 col-sm-3 col-sm-push-9">
         <p style="padding:20px;"></p>
-        <h1 align=center>Spinning</h1>
+        <h1 align=center>Baile</h1>
     </div>
     <div class="col-xs-12 col-sm-9 col-sm-pull-3">
-
         <div class="media">
             <div class="media-left media-middle">
                 <a href="#">
-                    <img class="media-object img-thumbnail" ng-src={{spin.image}} alt="{{featured_dish.name}}">
+                    <img class="media-object img-thumbnail" width= "400px" ng-src={{spin.image}} alt="{{featured_dish.name}}">
+                </a>
+            </div>
+        </div>
+        <div class="media-body " >
+            <h3 class="media-heading "
+                >{{featured_dish.name}}
+                <span class="label label-danger label-xs">{{featured_dish.label}}</span>
+                <span class="badge">{{featured_dish.price | currency}}</span>
+            </h3>
+            <p>{{featured_dish.description}}</p>
+        </div>
+    </div>
+</div><!--    top photo row close-->
+<div class="row row-content"><!-- 2nd photo row-->
+        <div class="col-xs-12 col-sm-3 ">
+            <p style="padding:20px;"></p>
+            <h1 align=center>Promociones de este mes</h1>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-sm-push-3">
+        <div class="media">
+            <div class="media-left">
+                <a href="#">
+                    <img class="media-object img-thumbnail" width="450px" height="300" ng-src={{promotion_dish.image}} alt="{{promotion_dish.name}}">
                 </a>
             </div>
         </div>
         <div class="media-body">
-            <h2 class="media-heading">{{featured_dish.name}}
-                <span class="label label-danger label-xs">{{featured_dish.label}}</span>
-                <span class="badge">{{featured_dish.price | currency}}</span>
-            </h2>
-            <p>{{featured_dish.description}}</p>
-
-        </div>
-
-    </div>
-</div>
-<div class="row row-content">
-        <div class="col-xs-12 col-sm-3">
-            <p style="padding:20px;"></p>
-            <h3 align=center>Promociones de este mes</h3>
-        </div>
-        <div class="col-xs-12 col-sm-9">
-
-        <div class="media">
-            <div class="media-left media-middle">
-                <a href="#">
-                    <img class="media-object img-thumbnail" ng-src={{promotion_dish.image}} alt="{{promotion_dish.name}}">
-                </a>
-            </div>
-        </div>
-            <div class="media-body">
-                <h2 class="media-heading">{{promotion_dish.name}}
+                <h2 class="media-heading ">{{promotion_dish.name}}
                     <span class="label label-danger label-xs">{{promotion_dish.label}}</span>
                     <span class="badge">{{promotion_dish.price | currency}}</span>
                 </h2>
                 <p>{{promotion_dish.description}}</p>
-
-            </div>
-
         </div>
     </div>
-
-    <div class="row row-content">
+</div><!-- 2nd photo row close-->
+<div class="row row-content"><!-- 3rd photo row-->
         <div class="col-xs-12 col-sm-3 col-sm-push-9">
             <p style="padding:20px;"></p>
-            <h3 align=center>Meet our Culinary Specialists</h3>
+            <h1 align=center>Pilates</h1>
         </div>
         <div class="col-xs-12 col-sm-9 col-sm-pull-3">
 
-            <div class="media">
-                <div class="media-left media-middle">
+        <div class="media">
+            <div class="media-left media-middle">
                     <a href="#">
                         <img class="media-object img-thumbnail" ng-src={{chief.image}} alt="{{chief.name}}">
                     </a>
-                </div>
             </div>
+        </div>
             <div class="media-body">
-                <h2 class="media-heading">{{chief.name}}
+                <h2 class="media-heading" width="450px" height="300px">{{chief.designation}}
                 </h2>
                 <p>{{chief.description}}</p>
 
             </div>
-
         </div>
-    </div>
+    </div><!-- 3rd photo row close-->
 </div>
         
 

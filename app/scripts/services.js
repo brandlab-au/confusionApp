@@ -91,12 +91,12 @@ angular.module('confusionApp')
                 },
                 {
                   _id:2,
-                  name:'Vadonut', 
+                  name:'Lunes, Martes, Miercoles', 
                   image: 'images/vadonut.png',
                   category: 'appetizer', 
                   label:'New',
                   price:'8.00',
-                  description:'Pasar y probar la clase de spinning a un dia ?',
+                  description:'Pasar y probar la clase de dance sin obligaction?',
                    comments: [
                        {
                            rating:5,
@@ -134,7 +134,7 @@ angular.module('confusionApp')
                 {
                   _id:3,
                   name:'600 calories', 
-                  image: 'images/elaicheesecake.png',
+                  image: 'images/group.png',
                   category: 'dessert', 
                   label:'',
                   price:'2.99',
@@ -181,7 +181,7 @@ angular.module('confusionApp')
                   image: 'images/spin_girl.png',
                   label:'New',
                   price:'8.00',
-                  description:'Esta mes y probar una clase de Pilates tenemos un especial de 2 personas por el precio de 1 incluso fuera de horas de recogida vamos a poner en una clase privada',
+                  description:'Esta mes y probar una clase de Spinning 2 por 1 desde 9am - 4pm',
         }
 
     ];
@@ -211,32 +211,32 @@ angular.module('confusionApp')
     
             var leadership = [
                 {
-                    name: "Peter Pan",
+                    name: "Spinning",
                     image: 'images/alberto.png',
                     designation: "Chief Epicurious Officer",
                     abbr: "CEO",
-                    description: "Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which The Frying Pan became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections."
+                    description: "La columna vertebral desempeña un papel crucial en la reducción de la tensión suministrada a cada segmento cuando una persona se mueve y equilibra las fuerzas de cizallamiento que se producen entre los segmentos de la columna vertebral. Se ha informado de que el fortalecimiento de las extremidades superiores e inferiores permite el funcionamiento eficiente de la región lumbar, y el fortalecimiento de la región lumbar permite el funcionamiento eficiente de las extremidades superiores e inferiores"
                 },
                 {
-                    name: "Dhanasekaran Witherspoon",
-                    image: 'images/alberto.png',
+                    name: "Dance",
+                    image: 'images/d.png',
                     designation: "Chief Food Officer",
                     abbr: "CFO",
-                    description: "Our CFO, Danny, as he is affectionately referred to by his colleagues, comes from a long established family tradition in farming and produce. His experiences growing up on a farm in the Australian outback gave him great appreciation for varieties of food sources. As he puts it in his own words, Everything that runs, wins, and everything that stays, pays!"
+                    description: "Estos bailes que en ella se realizan nos brindan una serie de movimientos dinámicos y coordinados, comenzando desde la cabeza hasta los pies, hacen que los músculos tomen fuerza, aumentando el tono muscular y la resistencia aerobia .Permiten aumentar la intensidad y elevar las pulsaciones"
                 },
                 {
-                    name: "Agumbe Tang",
-                          image: 'images/alberto.png',
+                    name: "Cross Fit",
+                          image: 'images/cross.png',
                     designation: "Chief Taste Officer",
                     abbr: "CTO",
-                    description: "Blessed with the most discerning gustatory sense, Agumbe, our CFO, personally ensures that every dish that we serve meets his exacting tastes. Our chefs dread the tongue lashing that ensues if their dish does not meet his exacting standards. He lives by his motto, You click only if you survive my lick."
+                    description: "e acuerdo con un estudio realizado por la Universidad Estatal de Kennesaw, la rutina de entrenamiento de CrossFit puede quemar 261 calorías por sesión. Puede que no parece mucho, pero para un entrenamiento de 20 minutos que es un poco de sudor grave.."
                 },
                 {
-                    name: "Alberto Somayya",
-                    image: 'images/alberto.png',
-                    designation: "Executive Chef",
+                    name: "pilates",
+                    image: 'images/Pilates.png',
+                    designation: "Cuarto seperado de Pilates",
                     abbr: "EC",
-                    description: "Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!"
+                    description: "El método Pilates es un entrenamiento de cuerpo integral, incluye ejercicios de fuerza, estiramientos, posturas sanas y respiraciones conscientes. El objetivo es fortalecer los músculos, mejorar la resistencia y la coordinación de los movimientos, estimulando la circulación y un mayor conocimiento de nuestro cuerpo. Esto puede cambiar positivamente nuestra vida y hacer a nuestro cuerpo más equilibrado. Si usted es un aficionado o un profesional, tenemos lo que necesita para un camino mejor y más saludable"
                 }
                 
             ];
