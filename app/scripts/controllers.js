@@ -108,7 +108,9 @@ angular.module('confusionApp')
                 
             $scope.dish_new = menuFactory.getDish(1);
             // top photo
-            $scope.spin = menuFactory.getDish(3);    
+            $scope.spin = menuFactory.getDish(3); 
+            
+            $scope.pilates =  menuFactory.getPromotion(1); 
         }])
 
         .controller('AboutController', ['$scope', 'corporateFactory', 

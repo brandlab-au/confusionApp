@@ -182,6 +182,13 @@ angular.module('confusionApp')
                   label:'New',
                   price:'8.00',
                   description:'Esta mes y probar una clase de Spinning 2 por 1 desde 9am - 4pm',
+        }, {
+                  _id:1,
+                  name:'Durante el día', 
+                  image: 'images/p.png',
+                  label:'New',
+                  price:'8.00',
+                  description:'Esta mes y probar una clase de Spinning 2 por 1 desde 9am - 4pm',
         }
 
     ];
