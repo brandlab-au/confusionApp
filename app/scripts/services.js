@@ -4,31 +4,31 @@ angular.module('confusionApp')
 
 .service('menuFactory', function() {
 
-    var dishes=[
+    var sports=[
                  {
                   _id:0,
-                  name:'Uthapizza',
-                  image: 'images/power.jpg',
+                  name:'Cross Fit',
+                  image: 'images/sports/cross.jpg',
                   category: 'appetizer', 
-                  label:'Hot',
-                  price:'4.99',
-                  description:'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.',
+                  label:'Difícil',
+                  price:'280 cal',
+                  description:'Es una clase única, que combina flexibilidad fuerza resistencia y habilidades generales las clases están diseñadas para diferentes niveles, pero los que empujan a sí mismos más caliente que podían esperar de 290 calorías sesiones de 20 minutos en el tiempo para los débiles de corazón esperar grandes resultados.',
                    comments: [
                        {
                            rating:5,
-                           comment:"Imagine all the eatables, living in conFusion!",
+                           comment:"Excelente clase excelente instructor",
                            author:"John Lemon",
                            date:"2012-10-16T17:57:28.556094Z"
                        },
                        {
                            rating:4,
-                           comment:"Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+                           comment:"If you want results and don't have time try this out ",
                            author:"Paul McVites",
                            date:"2014-09-05T17:57:28.556094Z"
                        },
                        {
                            rating:3,
-                           comment:"Eat it, just eat it!",
+                           comment:"Esta es una gran clase, tengo todo la intención de obtener mejores  técnicas",
                            author:"Michael Jaikishan",
                            date:"2015-02-13T17:57:28.556094Z"
                        },
@@ -40,7 +40,7 @@ angular.module('confusionApp')
                        },
                        {
                            rating:2,
-                           comment:"It's your birthday, we're gonna party!",
+                           comment:"Mantener el buen trabajo jorge nos vemos pronto!",
                            author:"25 Cent",
                            date:"2011-12-02T17:57:28.556094Z"
                        }
@@ -48,41 +48,41 @@ angular.module('confusionApp')
                    ]
                 },{
                   _id:1,
-                  name:'Uthapizza',
-                  image: 'images/uthapizza.png',
+                  name:'Pilates',
+                  image: 'images/sports/pilates.jpg',
                   category: 'mains', 
-                  label:'Hot',
-                  price:'4.99',
-                  description:'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.',
+                  label:'Moderate',
+                  price:'500 cal',
+                  description:'Pilates fuerza o resistencia combinada tenemos un excelente instructor aquí en Mck y sería fantástico si todo el mundo tuviera la oportunidad de tratar de entrenar con el, no es sólo un ejercicio por las mujeres , los hombres pueden beneficiarse de eso tambien.',
                    comments: [
                        {
                            rating:5,
-                           comment:"Imagine all the eatables, living in conFusion!",
-                           author:"John Lemon",
+                           comment:"Yorel mejor que cualquier otra profe!",
+                           author:"Stephenia",
                            date:"2012-10-16T17:57:28.556094Z"
                        },
                        {
                            rating:4,
-                           comment:"Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-                           author:"Paul McVites",
+                           comment:"No puedo recomendar esta clase lo suficientemente",
+                           author:"Adriana McVites",
                            date:"2014-09-05T17:57:28.556094Z"
                        },
                        {
-                           rating:3,
-                           comment:"Eat it, just eat it!",
-                           author:"Michael Jaikishan",
+                           rating:4,
+                           comment:"Estas clases me ayudan a reducir la cintura pero aumentar me fuerza.",
+                           author:"Michael Torres",
                            date:"2015-02-13T17:57:28.556094Z"
                        },
                        {
                            rating:4,
-                           comment:"Ultimate, Reaching for the stars!",
-                           author:"Ringo Starry",
+                           comment:"Qué buena clase",
+                           author:"Regina",
                            date:"2013-12-02T17:57:28.556094Z"
                        },
                        {
                            rating:2,
-                           comment:"It's your birthday, we're gonna party!",
-                           author:"25 Cent",
+                           comment:"Harder than I thought!",
+                           author:"Emily",
                            date:"2011-12-02T17:57:28.556094Z"
                        }
 
@@ -90,12 +90,12 @@ angular.module('confusionApp')
                 },
                 {
                   _id:2,
-                  name:'Zucchipakoda', 
-                  image: 'images/zucchipakoda.png',
+                  name:'Spinning', 
+                  image: 'images/sports/spinning_group.jpg',
                   category: 'appetizer', 
-                  label:'',
-                  price:'1.99',
-                  description:'Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce',
+                  label:'New montaña',
+                  price:'700 cal',
+                  description:'En realidad por la señora que no tiene tanta tiempo pero quiere quemar calorías qué clase puede ser mejor que está todo los lunes con Alfonso arrancar la semana como quieres sigurir.',
                   comments: [
                        {
                            rating:5,
@@ -132,41 +132,41 @@ angular.module('confusionApp')
                 },
                 {
                   _id:3,
-                  name:'Lunes, Martes, Miercoles', 
-                  image: 'images/vadonut.png',
+                  name:'Baile', 
+                  image: 'images/sports/aerobic.jpg',
                   category: 'appetizer', 
-                  label:'New',
-                  price:'8.00',
-                  description:'Pasar y probar la clase de dance sin obligaction?',
+                  label:'Fast',
+                  price:'450 cal',
+                  description:'Esta clase particular es una mezcla de Simba y madre de baile una vez más se sabe cuando lo termine.',
                    comments: [
                        {
                            rating:5,
-                           comment:"Imagine all the eatables, living in conFusion!",
-                           author:"John Lemon",
+                           comment:"Great clase",
+                           author:"Johna",
                            date:"2012-10-16T17:57:28.556094Z"
                        },
                        {
                            rating:4,
-                           comment:"Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-                           author:"Paul McVites",
+                           comment:"Esta clase te hace trabajar",
+                           author:"Paula",
                            date:"2014-09-05T17:57:28.556094Z"
                        },
                        {
                            rating:3,
-                           comment:"Eat it, just eat it!",
-                           author:"Michael Jaikishan",
+                           comment:"lo que uno Busca terminando lunes",
+                           author:"G",
                            date:"2015-02-13T17:57:28.556094Z"
                        },
                        {
                            rating:4,
-                           comment:"Ultimate, Reaching for the stars!",
-                           author:"Ringo Starry",
+                           comment:"como baile la Cala",
+                           author:"Daniela",
                            date:"2013-12-02T17:57:28.556094Z"
                        },
                        {
                            rating:2,
-                           comment:"It's your birthday, we're gonna party!",
-                           author:"25 Cent",
+                           comment:"Ven y ver este clase!",
+                           author:"Lorena",
                            date:"2011-12-02T17:57:28.556094Z"
                        }
 
@@ -175,40 +175,40 @@ angular.module('confusionApp')
                 {
                   _id:4,
                   name:'600 calories', 
-                  image: 'images/group.png',
+                  image: 'images/sports/girl_ball.jpg',
                   category: 'dessert', 
-                  label:'',
-                  price:'2.99',
-                  description:'Alfonoso explicó que si bien una clase media vuelta quema entre 400 y 600 calorías, no es suficiente por sí solo para hacer a arrojar libras.Girar tres veces a la semana y que la antorcha hasta 1.800 calorías, pero una libra de grasa equivale a 3.500 calorías',
+                  label:'Moderate',
+                  price:'550 cal',
+                  description:'Funcional es ahora estará con nosotros durante un número de años y como nadie que participan en los desfiles el mejor medicamento para el entrenamiento sin el estrés que estás articulaciones se unen en favor Danie con un gran maestro.',
                    comments: [
                        {
                            rating:5,
-                           comment:"Imagine all the eatables, living in conFusion!",
-                           author:"John Lemon",
+                           comment:"buenísima esta clase!",
+                           author:"John",
                            date:"2012-10-16T17:57:28.556094Z"
                        },
                        {
                            rating:4,
-                           comment:"Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-                           author:"Paul McVites",
+                           comment:"si no has hecho te toca",
+                           author:"Pauli",
                            date:"2014-09-05T17:57:28.556094Z"
                        },
                        {
                            rating:3,
-                           comment:"Eat it, just eat it!",
-                           author:"Michael Jaikishan",
+                           comment:"qué excelente clase",
+                           author:"Javier",
                            date:"2015-02-13T17:57:28.556094Z"
                        },
                        {
                            rating:4,
-                           comment:"Ultimate, Reaching for the stars!",
-                           author:"Ringo Starry",
+                           comment:"lo que me encanta de eso es la flexibilidad que he ganado",
+                           author:"Hilary",
                            date:"2013-12-02T17:57:28.556094Z"
                        },
                        {
                            rating:2,
-                           comment:"It's your birthday, we're gonna party!",
-                           author:"25 Cent",
+                           comment:"looking forward to the next class!",
+                           author:"James",
                            date:"2011-12-02T17:57:28.556094Z"
                        }
 
@@ -216,40 +216,40 @@ angular.module('confusionApp')
                 },
          {
                   _id:5,
-                  name:'Lunes, Martes, Miercoles', 
-                  image: 'images/cross2.jpg',
+                  name:'Pilates ', 
+                  image: 'images/yoga.jpg',
                   category: 'appetizer', 
-                  label:'New',
-                  price:'8.00',
-                  description:'Pasar y probar la clase de dance sin obligaction?',
+                  label:'tums & bums',
+                  price:'tonificación',
+                  description:'Oye esa clase 1 toca por lo menos dos veces del mes si ayuda en realidad bajar los deberes de grasa mientras mantiene tonificado todos los músculos del abdomen y glúteo que a veces son difíciles colorizar y entrenar pero con esa clase nos promete que va a ver resultados.',
                    comments: [
                        {
                            rating:5,
-                           comment:"Imagine all the eatables, living in conFusion!",
+                           comment:"no está fácil!",
                            author:"John Lemon",
                            date:"2012-10-16T17:57:28.556094Z"
                        },
                        {
                            rating:4,
-                           comment:"Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+                           comment:"no está fácil!",
                            author:"Paul McVites",
                            date:"2014-09-05T17:57:28.556094Z"
                        },
                        {
                            rating:3,
-                           comment:"Eat it, just eat it!",
+                           comment:"no está fácil!",
                            author:"Michael Jaikishan",
                            date:"2015-02-13T17:57:28.556094Z"
                        },
                        {
                            rating:4,
-                           comment:"Ultimate, Reaching for the stars!",
+                           comment:"el profe, esta muy bien!",
                            author:"Ringo Starry",
                            date:"2013-12-02T17:57:28.556094Z"
                        },
                        {
-                           rating:2,
-                           comment:"It's your birthday, we're gonna party!",
+                           rating:3,
+                           comment:"Que buenas resultadtos !",
                            author:"25 Cent",
                            date:"2011-12-02T17:57:28.556094Z"
                        }
@@ -276,15 +276,15 @@ angular.module('confusionApp')
 
     ];
 
-                this.getDishes = function(){
+                this.getSports = function(){
                     
-                    return dishes;
+                    return sports;
                     
                 };
     
                 this.getDish = function (index) {
                     
-                    return dishes[index];
+                    return sports[index];
                 };
     
                 // implement a function named getPromotion

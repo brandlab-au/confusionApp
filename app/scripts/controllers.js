@@ -8,7 +8,7 @@ angular.module('confusionApp')
             $scope.filtText = '';
             $scope.showDetails = false;
 
-            $scope.dishes= menuFactory.getDishes();
+            $scope.sports= menuFactory.getSports();
 
                         
             $scope.select = function(setTab) {
