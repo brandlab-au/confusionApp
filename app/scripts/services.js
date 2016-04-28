@@ -7,11 +7,11 @@ angular.module('confusionApp')
     var sports=[
                  {
                   _id:0,
-                  name:'Cross Fit',
-                  image: 'images/sports/cross.jpg',
-                  category: 'appetizer', 
+                  name:'Pilates extrema',
+                  image: 'images/sports/pilates.jpg',
+                  category: 'martes', 
                   label:'Difícil',
-                  price:'280 cal',
+                  price:'6:30 am',
                   description:'Es una clase única, que combina flexibilidad fuerza resistencia y habilidades generales las clases están diseñadas para diferentes niveles, pero los que empujan a sí mismos más caliente que podían esperar de 290 calorías sesiones de 20 minutos en el tiempo para los débiles de corazón esperar grandes resultados.',
                    comments: [
                        {
@@ -47,12 +47,12 @@ angular.module('confusionApp')
 
                    ]
                 },{
-                  _id:1,
+                  _id:10,
                   name:'Pilates',
                   image: 'images/sports/pilates.jpg',
-                  category: 'mains', 
-                  label:'Moderate',
-                  price:'500 cal',
+                  category: 'lunes', 
+                  label:'Moderate Todo cuerpo',
+                  price:'6:30 am',
                   description:'Pilates fuerza o resistencia combinada tenemos un excelente instructor aquí en Mck y sería fantástico si todo el mundo tuviera la oportunidad de tratar de entrenar con el, no es sólo un ejercicio por las mujeres , los hombres pueden beneficiarse de eso tambien.',
                    comments: [
                        {
@@ -89,12 +89,12 @@ angular.module('confusionApp')
                    ]
                 },
                 {
-                  _id:2,
+                  _id:20,
                   name:'Spinning', 
-                  image: 'images/sports/spinning_group.jpg',
-                  category: 'appetizer', 
-                  label:'New montaña',
-                  price:'700 cal',
+                  image: 'images/spinnign-1.jpg',
+                  category: 'martes', 
+                  label:'New Spinning',
+                  price:'6:30 am',
                   description:'En realidad por la señora que no tiene tanta tiempo pero quiere quemar calorías qué clase puede ser mejor que está todo los lunes con Alfonso arrancar la semana como quieres sigurir.',
                   comments: [
                        {
@@ -130,55 +130,14 @@ angular.module('confusionApp')
 
                    ]
                 },
+               
                 {
-                  _id:3,
-                  name:'Baile', 
-                  image: 'images/sports/aerobic.jpg',
-                  category: 'appetizer', 
-                  label:'Fast',
-                  price:'450 cal',
-                  description:'Esta clase particular es una mezcla de Simba y madre de baile una vez más se sabe cuando lo termine.',
-                   comments: [
-                       {
-                           rating:5,
-                           comment:"Great clase",
-                           author:"Johna",
-                           date:"2012-10-16T17:57:28.556094Z"
-                       },
-                       {
-                           rating:4,
-                           comment:"Esta clase te hace trabajar",
-                           author:"Paula",
-                           date:"2014-09-05T17:57:28.556094Z"
-                       },
-                       {
-                           rating:3,
-                           comment:"lo que uno Busca terminando lunes",
-                           author:"G",
-                           date:"2015-02-13T17:57:28.556094Z"
-                       },
-                       {
-                           rating:4,
-                           comment:"como baile la Cala",
-                           author:"Daniela",
-                           date:"2013-12-02T17:57:28.556094Z"
-                       },
-                       {
-                           rating:2,
-                           comment:"Ven y ver este clase!",
-                           author:"Lorena",
-                           date:"2011-12-02T17:57:28.556094Z"
-                       }
-
-                   ]
-                },
-                {
-                  _id:4,
-                  name:'600 calories', 
-                  image: 'images/sports/girl_ball.jpg',
-                  category: 'dessert', 
-                  label:'Moderate',
-                  price:'550 cal',
+                  _id:30,
+                  name:'Pilats', 
+                  image: 'images/sports/pilates.jpg',
+                  category: 'jueves', 
+                  label:'Moderate tumms',
+                  price:'6:30 am',
                   description:'Funcional es ahora estará con nosotros durante un número de años y como nadie que participan en los desfiles el mejor medicamento para el entrenamiento sin el estrés que estás articulaciones se unen en favor Danie con un gran maestro.',
                    comments: [
                        {
@@ -213,12 +172,11 @@ angular.module('confusionApp')
                        }
 
                    ]
-                },
-         {
-                  _id:5,
+                },{
+                  _id:40,
                   name:'Pilates ', 
-                  image: 'images/yoga.jpg',
-                  category: 'appetizer', 
+                  image: 'images/Pilates.png',
+                  category: 'viernes', 
                   label:'tums & bums',
                   price:'tonificación',
                   description:'Oye esa clase 1 toca por lo menos dos veces del mes si ayuda en realidad bajar los deberes de grasa mientras mantiene tonificado todos los músculos del abdomen y glúteo que a veces son difíciles colorizar y entrenar pero con esa clase nos promete que va a ver resultados.',
@@ -255,7 +213,960 @@ angular.module('confusionApp')
                        }
 
                    ]
-                },
+                },{
+                  _id:50,
+                  name:'Cross Fit ', 
+                  image: 'images/sports/cross2.jpg',
+                  category: 'lunes', 
+                  label:'Tonificación',
+                  price:'6:30 am',
+                  description:'Esta clase particular es una mezcla de Simba y madre de baile una vez más se sabe cuando lo termine.',
+                   comments: [
+                       {
+                           rating:5,
+                           comment:"Great clase",
+                           author:"Johna",
+                           date:"2012-10-16T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Esta clase te hace trabajar",
+                           author:"Paula",
+                           date:"2014-09-05T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"lo que uno Busca terminando lunes",
+                           author:"G",
+                           date:"2015-02-13T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"como baile la Cala",
+                           author:"Daniela",
+                           date:"2013-12-02T17:57:28.556094Z"
+                       },
+                       {
+                           rating:2,
+                           comment:"Ven y ver este clase!",
+                           author:"Lorena",
+                           date:"2011-12-02T17:57:28.556094Z"
+                       }
+
+
+                   ]
+                },{
+                  _id:60,
+                  name:'Baile', 
+                  image: 'images/sports/aerobic.jpg',
+                  category: 'lunes', 
+                  label:'Fast X lunes',
+                  price:'6:30 pm',
+                  description:'Esta clase particular es una mezcla de Simba y madre de baile una vez más se sabe cuando lo termine.',
+                   comments: [
+                       {
+                           rating:5,
+                           comment:"Great clase",
+                           author:"Johna",
+                           date:"2012-10-16T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Esta clase te hace trabajar",
+                           author:"Paula",
+                           date:"2014-09-05T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"lo que uno Busca terminando lunes",
+                           author:"G",
+                           date:"2015-02-13T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"como baile la Cala",
+                           author:"Daniela",
+                           date:"2013-12-02T17:57:28.556094Z"
+                       },
+                       {
+                           rating:2,
+                           comment:"Ven y ver este clase!",
+                           author:"Lorena",
+                           date:"2011-12-02T17:57:28.556094Z"
+                       }
+
+
+                   ]
+                },{
+                  _id:70,
+                  name:'Functional Training', 
+                  image: 'images/sports/girl_ball.jpg',
+                  category: 'lunes', 
+                  label:'Especial',
+                  price:'6:30 pm',
+                  description:'Esta clase particular es una mezcla de Simba y madre de baile una vez más se sabe cuando lo termine.',
+                   comments: [
+                       {
+                           rating:5,
+                           comment:"Great clase",
+                           author:"Johna",
+                           date:"2012-10-16T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Esta clase te hace trabajar",
+                           author:"Paula",
+                           date:"2014-09-05T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"lo que uno Busca terminando lunes",
+                           author:"G",
+                           date:"2015-02-13T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"como baile la Cala",
+                           author:"Daniela",
+                           date:"2013-12-02T17:57:28.556094Z"
+                       },
+                       {
+                           rating:2,
+                           comment:"Ven y ver este clase!",
+                           author:"Lorena",
+                           date:"2011-12-02T17:57:28.556094Z"
+                       }
+
+
+                   ]
+                },{
+                  _id:80,
+                  name:'Pilates Training', 
+                  image: 'images/sports/pilates.jpg',
+                  category: 'lunes', 
+                  label:'Especial',
+                  price:'7:00 pm',
+                  description:'Esta clase particular es una mezcla de Simba y madre de baile una vez más se sabe cuando lo termine.',
+                   comments: [
+                       {
+                           rating:5,
+                           comment:"Great clase",
+                           author:"Johna",
+                           date:"2012-10-16T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Esta clase te hace trabajar",
+                           author:"Paula",
+                           date:"2014-09-05T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"lo que uno Busca terminando lunes",
+                           author:"G",
+                           date:"2015-02-13T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"como baile la Cala",
+                           author:"Daniela",
+                           date:"2013-12-02T17:57:28.556094Z"
+                       },
+                       {
+                           rating:2,
+                           comment:"Ven y ver este clase!",
+                           author:"Lorena",
+                           date:"2011-12-02T17:57:28.556094Z"
+                       }
+
+
+                   ]
+                },{
+                  _id:90,
+                  name:'Spining Sprint ', 
+                  image: 'images/spinning1.png',
+                  category: 'lunes', 
+                  label:'Especial',
+                  price:'7:00 pm',
+                  description:'Esta clase particular es una mezcla de Simba y madre de baile una vez más se sabe cuando lo termine.',
+                   comments: [
+                       {
+                           rating:5,
+                           comment:"Great clase",
+                           author:"Johna",
+                           date:"2012-10-16T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Esta clase te hace trabajar",
+                           author:"Paula",
+                           date:"2014-09-05T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"lo que uno Busca terminando lunes",
+                           author:"G",
+                           date:"2015-02-13T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"como baile la Cala",
+                           author:"Daniela",
+                           date:"2013-12-02T17:57:28.556094Z"
+                       },
+                       {
+                           rating:2,
+                           comment:"Ven y ver este clase!",
+                           author:"Lorena",
+                           date:"2011-12-02T17:57:28.556094Z"
+                       }
+
+
+                   ]
+                },{
+                  _id:100,
+                  name:'Bailoterapia',
+                  image: 'images/sports/aerobic.jpg',
+                  category: 'martes', 
+                  label:'Moderate Todo cuerpo',
+                  price:'6:30 pm',
+                  description:'Pilates fuerza o resistencia combinada tenemos un excelente instructor aquí en Mck y sería fantástico si todo el mundo tuviera la oportunidad de tratar de entrenar con el, no es sólo un ejercicio por las mujeres , los hombres pueden beneficiarse de eso tambien.',
+                   comments: [
+                       {
+                           rating:5,
+                           comment:"Yorel mejor que cualquier otra profe!",
+                           author:"Stephenia",
+                           date:"2012-10-16T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"No puedo recomendar esta clase lo suficientemente",
+                           author:"Adriana McVites",
+                           date:"2014-09-05T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Estas clases me ayudan a reducir la cintura pero aumentar me fuerza.",
+                           author:"Michael Torres",
+                           date:"2015-02-13T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Qué buena clase",
+                           author:"Regina",
+                           date:"2013-12-02T17:57:28.556094Z"
+                       },
+                       {
+                           rating:2,
+                           comment:"Harder than I thought!",
+                           author:"Emily",
+                           date:"2011-12-02T17:57:28.556094Z"
+                       }
+
+                   ]
+                },{
+                  _id:105,
+                  name:'Cross fit ', 
+                  image: 'images/sports/crossfit-girl_boy.jpg',
+                  category: 'viernes', 
+                  label:'Sprint',
+                  price:'6:30 am',
+                  description:'Oye esa clase 1 toca por lo menos dos veces del mes si ayuda en realidad bajar los deberes de grasa mientras mantiene tonificado todos los músculos del abdomen y glúteo que a veces son difíciles colorizar y entrenar pero con esa clase nos promete que va a ver resultados.',
+                   comments: [
+                       {
+                           rating:5,
+                           comment:"no está fácil!",
+                           author:"John Lemon",
+                           date:"2012-10-16T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"no está fácil!",
+                           author:"Paul McVites",
+                           date:"2014-09-05T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"no está fácil!",
+                           author:"Michael Jaikishan",
+                           date:"2015-02-13T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"el profe, esta muy bien!",
+                           author:"Ringo Starry",
+                           date:"2013-12-02T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"Que buenas resultadtos !",
+                           author:"25 Cent",
+                           date:"2011-12-02T17:57:28.556094Z"
+                       }
+
+                   ]
+                },{
+                  _id:110,
+                  name:'Spinning ', 
+                  image: 'images/sp/spsp.jpg',
+                  category: 'viernes', 
+                  label:'Sprint',
+                  price:'6:30 am',
+                  description:'Oye esa clase 1 toca por lo menos dos veces del mes si ayuda en realidad bajar los deberes de grasa mientras mantiene tonificado todos los músculos del abdomen y glúteo que a veces son difíciles colorizar y entrenar pero con esa clase nos promete que va a ver resultados.',
+                   comments: [
+                       {
+                           rating:5,
+                           comment:"no está fácil!",
+                           author:"John Lemon",
+                           date:"2012-10-16T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"no está fácil!",
+                           author:"Paul McVites",
+                           date:"2014-09-05T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"no está fácil!",
+                           author:"Michael Jaikishan",
+                           date:"2015-02-13T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"el profe, esta muy bien!",
+                           author:"Ringo Starry",
+                           date:"2013-12-02T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"Que buenas resultadtos !",
+                           author:"25 Cent",
+                           date:"2011-12-02T17:57:28.556094Z"
+                       }
+
+                   ]
+                },{
+                  _id:120,
+                  name:'Cross Fit',
+                  image: 'images/sports/cross.jpg',
+                  category: 'martes', 
+                  label:'Difícil',
+                  price:'7:00 pm',
+                  description:'Es una clase única, que combina flexibilidad fuerza resistencia y habilidades generales las clases están diseñadas para diferentes niveles, pero los que empujan a sí mismos más caliente que podían esperar de 290 calorías sesiones de 20 minutos en el tiempo para los débiles de corazón esperar grandes resultados.',
+                   comments: [
+                       {
+                           rating:5,
+                           comment:"Excelente clase excelente instructor",
+                           author:"John Lemon",
+                           date:"2012-10-16T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"If you want results and don't have time try this out ",
+                           author:"Paul McVites",
+                           date:"2014-09-05T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"Esta es una gran clase, tengo todo la intención de obtener mejores  técnicas",
+                           author:"Michael Jaikishan",
+                           date:"2015-02-13T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Ultimate, Reaching for the stars!",
+                           author:"Ringo Starry",
+                           date:"2013-12-02T17:57:28.556094Z"
+                       },
+                       {
+                           rating:2,
+                           comment:"Mantener el buen trabajo jorge nos vemos pronto!",
+                           author:"25 Cent",
+                           date:"2011-12-02T17:57:28.556094Z"
+                       }
+
+                   ]
+                },{
+                  _id:140,
+                  name:'Spining Sprint ', 
+                  image: 'images/spinning1.png',
+                  category: 'martes', 
+                  label:'Especial',
+                  price:'7:00 pm',
+                  description:'Esta clase particular es una mezcla de Simba y madre de baile una vez más se sabe cuando lo termine.',
+                   comments: [
+                       {
+                           rating:5,
+                           comment:"Great clase",
+                           author:"Johna",
+                           date:"2012-10-16T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Esta clase te hace trabajar",
+                           author:"Paula",
+                           date:"2014-09-05T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"lo que uno Busca terminando ",
+                           author:"G",
+                           date:"2015-02-13T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"como baile la Cala",
+                           author:"Daniela",
+                           date:"2013-12-02T17:57:28.556094Z"
+                       },
+                       {
+                           rating:2,
+                           comment:"Ven y ver este clase!",
+                           author:"Lorena",
+                           date:"2011-12-02T17:57:28.556094Z"
+                       }
+
+
+                   ]
+                },{
+                  _id:150,
+                  name:'Spinning', 
+                  image: 'images/spinnign-1.jpg',
+                  category: 'miercoles', 
+                  label:'New Spinning',
+                  price:'6:30 am',
+                  description:'En realidad por la señora que no tiene tanta tiempo pero quiere quemar calorías qué clase puede ser mejor que está todo los lunes con Alfonso arrancar la semana como quieres sigurir.',
+                  comments: [
+                       {
+                           rating:5,
+                           comment:"Imagine all the eatables, living in conFusion!",
+                           author:"John Lemon",
+                           date:"2012-10-16T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+                           author:"Paul McVites",
+                           date:"2014-09-05T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"Eat it, just eat it!",
+                           author:"Michael Jaikishan",
+                           date:"2015-02-13T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Ultimate, Reaching for the stars!",
+                           author:"Ringo Starry",
+                           date:"2013-12-02T17:57:28.556094Z"
+                       },
+                       {
+                           rating:2,
+                           comment:"It's your birthday, we're gonna party!",
+                           author:"25 Cent",
+                           date:"2011-12-02T17:57:28.556094Z"
+                       }
+
+                   ]
+                },{
+                  _id:160,
+                  name:'Cross Fit ', 
+                  image: 'images/sports/cross2.jpg',
+                  category: 'miercoles', 
+                  label:'Tonificación',
+                  price:'6:30 am',
+                  description:'Esta clase particular es una mezcla de Simba y madre de baile una vez más se sabe cuando lo termine.',
+                   comments: [
+                       {
+                           rating:5,
+                           comment:"Great clase",
+                           author:"Johna",
+                           date:"2012-10-16T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Esta clase te hace trabajar",
+                           author:"Paula",
+                           date:"2014-09-05T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"lo que uno Busca terminando lunes",
+                           author:"G",
+                           date:"2015-02-13T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"como baile la Cala",
+                           author:"Daniela",
+                           date:"2013-12-02T17:57:28.556094Z"
+                       },
+                       {
+                           rating:2,
+                           comment:"Ven y ver este clase!",
+                           author:"Lorena",
+                           date:"2011-12-02T17:57:28.556094Z"
+                       }
+
+
+                   ]
+                },{
+                  _id:170,
+                  name:'Pilates ', 
+                  image: 'images/yoga.jpg',
+                  category: 'miercoles', 
+                  label:'6:30 am',
+                  price:'tonificación',
+                  description:'Oye esa clase 1 toca por lo menos dos veces del mes si ayuda en realidad bajar los deberes de grasa mientras mantiene tonificado todos los músculos del abdomen y glúteo que a veces son difíciles colorizar y entrenar pero con esa clase nos promete que va a ver resultados.',
+                   comments: [
+                       {
+                           rating:5,
+                           comment:"no está fácil!",
+                           author:"John Lemon",
+                           date:"2012-10-16T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"no está fácil!",
+                           author:"Paul McVites",
+                           date:"2014-09-05T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"no está fácil!",
+                           author:"Michael Jaikishan",
+                           date:"2015-02-13T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"el profe, esta muy bien!",
+                           author:"Ringo Starry",
+                           date:"2013-12-02T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"Que buenas resultadtos !",
+                           author:"25 Cent",
+                           date:"2011-12-02T17:57:28.556094Z"
+                       }
+
+                   ]
+                },{
+                  _id:180,
+                  name:'Bailoterapia',
+                  image: 'images/sports/aerobic.jpg',
+                  category: 'miercoles', 
+                  label:'Moderate Todo cuerpo',
+                  price:'6:30 pm',
+                  description:'Pilates fuerza o resistencia combinada tenemos un excelente instructor aquí en Mck y sería fantástico si todo el mundo tuviera la oportunidad de tratar de entrenar con el, no es sólo un ejercicio por las mujeres , los hombres pueden beneficiarse de eso tambien.',
+                   comments: [
+                       {
+                           rating:5,
+                           comment:"Yorel mejor que cualquier otra profe!",
+                           author:"Stephenia",
+                           date:"2012-10-16T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"No puedo recomendar esta clase lo suficientemente",
+                           author:"Adriana McVites",
+                           date:"2014-09-05T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Estas clases me ayudan a reducir la cintura pero aumentar me fuerza.",
+                           author:"Michael Torres",
+                           date:"2015-02-13T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Qué buena clase",
+                           author:"Regina",
+                           date:"2013-12-02T17:57:28.556094Z"
+                       },
+                       {
+                           rating:2,
+                           comment:"Harder than I thought!",
+                           author:"Emily",
+                           date:"2011-12-02T17:57:28.556094Z"
+                       }
+
+                   ]
+                },{
+                  _id:190,
+                  name:'Spinning', 
+                  image: 'images/spinnign-1.jpg',
+                  category: 'miercoles', 
+                  label:'New Spinning',
+                  price:'7:00 pm',
+                  description:'En realidad por la señora que no tiene tanta tiempo pero quiere quemar calorías qué clase puede ser mejor que está todo los lunes con Alfonso arrancar la semana como quieres sigurir.',
+                  comments: [
+                       {
+                           rating:5,
+                           comment:"Imagine all the eatables, living in conFusion!",
+                           author:"John Lemon",
+                           date:"2012-10-16T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+                           author:"Paul McVites",
+                           date:"2014-09-05T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"Eat it, just eat it!",
+                           author:"Michael Jaikishan",
+                           date:"2015-02-13T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Ultimate, Reaching for the stars!",
+                           author:"Ringo Starry",
+                           date:"2013-12-02T17:57:28.556094Z"
+                       },
+                       {
+                           rating:2,
+                           comment:"It's your birthday, we're gonna party!",
+                           author:"25 Cent",
+                           date:"2011-12-02T17:57:28.556094Z"
+                       }
+
+                   ]
+                },{
+                  _id:200,
+                  name:'Spinning', 
+                  image: 'images/SPINNING-2-.jpg',
+                  category: 'jueves', 
+                  label:'Great Spinning',
+                  price:'6:30 am',
+                  description:'En realidad por la señora que no tiene tanta tiempo pero quiere quemar calorías qué clase puede ser mejor que está todo los lunes con Alfonso arrancar la semana como quieres sigurir.',
+                  comments: [
+                       {
+                           rating:5,
+                           comment:"Imagine all the eatables, living in conFusion!",
+                           author:"John Lemon",
+                           date:"2012-10-16T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+                           author:"Paul McVites",
+                           date:"2014-09-05T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"Eat it, just eat it!",
+                           author:"Michael Jaikishan",
+                           date:"2015-02-13T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Ultimate, Reaching for the stars!",
+                           author:"Ringo Starry",
+                           date:"2013-12-02T17:57:28.556094Z"
+                       },
+                       {
+                           rating:2,
+                           comment:"It's your birthday, we're gonna party!",
+                           author:"25 Cent",
+                           date:"2011-12-02T17:57:28.556094Z"
+                       }
+
+                   ]
+                },{
+                  _id:210,
+                  name:'Cross Fit ', 
+                  image: 'images/sports/cross.jpg',
+                  category: 'jueves', 
+                  label:'Tonificación',
+                  price:'7:00 pm',
+                  description:'Esta clase particular es una mezcla de Simba y madre de baile una vez más se sabe cuando lo termine.',
+                   comments: [
+                       {
+                           rating:5,
+                           comment:"Great clase",
+                           author:"Johna",
+                           date:"2012-10-16T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Esta clase te hace trabajar",
+                           author:"Paula",
+                           date:"2014-09-05T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"lo que uno Busca terminando lunes",
+                           author:"G",
+                           date:"2015-02-13T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"como baile la Cala",
+                           author:"Daniela",
+                           date:"2013-12-02T17:57:28.556094Z"
+                       },
+                       {
+                           rating:2,
+                           comment:"Ven y ver este clase!",
+                           author:"Lorena",
+                           date:"2011-12-02T17:57:28.556094Z"
+                       }
+
+
+                   ]
+                },{
+                  _id:220,
+                  name:'Fit combat', 
+                  image: 'images/sports/combat.jpg',
+                  category: 'jueves', 
+                  label:'Hard',
+                  price:'7:00 pm',
+                  description:'Esta clase particular es una mezcla de Simba y madre de baile una vez más se sabe cuando lo termine.',
+                   comments: [
+                       {
+                           rating:5,
+                           comment:"Great clase",
+                           author:"Johna",
+                           date:"2012-10-16T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Esta clase te hace trabajar",
+                           author:"Paula",
+                           date:"2014-09-05T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"lo que uno Busca terminando lunes",
+                           author:"G",
+                           date:"2015-02-13T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"como baile la Cala",
+                           author:"Daniela",
+                           date:"2013-12-02T17:57:28.556094Z"
+                       },
+                       {
+                           rating:2,
+                           comment:"Ven y ver este clase!",
+                           author:"Lorena",
+                           date:"2011-12-02T17:57:28.556094Z"
+                       }
+
+
+                   ]
+                },{
+                  _id:220,
+                  name:'Spinning', 
+                  image: 'images/spinning group.jpg',
+                  category: 'miercoles', 
+                  label:'Fast Spinning',
+                  price:'7:00 pm',
+                  description:'En realidad por la señora que no tiene tanta tiempo pero quiere quemar calorías qué clase puede ser mejor que está todo los lunes con Alfonso arrancar la semana como quieres sigurir.',
+                  comments: [
+                       {
+                           rating:5,
+                           comment:"Imagine all the eatables, living in conFusion!",
+                           author:"John Lemon",
+                           date:"2012-10-16T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+                           author:"Paul McVites",
+                           date:"2014-09-05T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"Eat it, just eat it!",
+                           author:"Michael Jaikishan",
+                           date:"2015-02-13T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Ultimate, Reaching for the stars!",
+                           author:"Ringo Starry",
+                           date:"2013-12-02T17:57:28.556094Z"
+                       },
+                       {
+                           rating:2,
+                           comment:"It's your birthday, we're gonna party!",
+                           author:"25 Cent",
+                           date:"2011-12-02T17:57:28.556094Z"
+                       }
+
+                   ]
+                },{
+                  _id:230,
+                  name:'Pilates ', 
+                  image: 'images/p.png',
+                  category: 'viernes', 
+                  label:'Bums',
+                  price:'7:00 pm',
+                  description:'Oye esa clase 1 toca por lo menos dos veces del mes si ayuda en realidad bajar los deberes de grasa mientras mantiene tonificado todos los músculos del abdomen y glúteo que a veces son difíciles colorizar y entrenar pero con esa clase nos promete que va a ver resultados.',
+                   comments: [
+                       {
+                           rating:5,
+                           comment:"no está fácil!",
+                           author:"John Lemon",
+                           date:"2012-10-16T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"no está fácil!",
+                           author:"Paul McVites",
+                           date:"2014-09-05T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"no está fácil!",
+                           author:"Michael Jaikishan",
+                           date:"2015-02-13T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"el profe, esta muy bien!",
+                           author:"Ringo Starry",
+                           date:"2013-12-02T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"Que buenas resultadtos !",
+                           author:"25 Cent",
+                           date:"2011-12-02T17:57:28.556094Z"
+                       }
+
+                   ]
+                },{
+                  _id:240,
+                  name:'Salsa ', 
+                  image: 'images/sports/Zumba_dance.jpg',
+                  category: 'viernes', 
+                  label:'Latin Dance',
+                  price:'7:00 pm',
+                  description:'Oye esa clase 1 toca por lo menos dos veces del mes si ayuda en realidad bajar los deberes de grasa mientras mantiene tonificado todos los músculos del abdomen y glúteo que a veces son difíciles colorizar y entrenar pero con esa clase nos promete que va a ver resultados.',
+                   comments: [
+                       {
+                           rating:5,
+                           comment:"no está fácil!",
+                           author:"John Lemon",
+                           date:"2012-10-16T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"no está fácil!",
+                           author:"Paul McVites",
+                           date:"2014-09-05T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"no está fácil!",
+                           author:"Michael Jaikishan",
+                           date:"2015-02-13T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"el profe, esta muy bien!",
+                           author:"Ringo Starry",
+                           date:"2013-12-02T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"Que buenas resultadtos !",
+                           author:"25 Cent",
+                           date:"2011-12-02T17:57:28.556094Z"
+                       }
+
+                   ]
+                },{
+                  _id:250,
+                  name:'Spinning', 
+                  image: 'images/spinning1.png',
+                  category: 'viernes', 
+                  label:'Fast Spinning',
+                  price:'7:00 pm',
+                  description:'En realidad por la señora que no tiene tanta tiempo pero quiere quemar calorías qué clase puede ser mejor que está todo los lunes con Alfonso arrancar la semana como quieres sigurir.',
+                  comments: [
+                       {
+                           rating:5,
+                           comment:"Imagine all the eatables, living in conFusion!",
+                           author:"John Lemon",
+                           date:"2012-10-16T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+                           author:"Paul McVites",
+                           date:"2014-09-05T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"Eat it, just eat it!",
+                           author:"Michael Jaikishan",
+                           date:"2015-02-13T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Ultimate, Reaching for the stars!",
+                           author:"Ringo Starry",
+                           date:"2013-12-02T17:57:28.556094Z"
+                       },
+                       {
+                           rating:2,
+                           comment:"It's your birthday, we're gonna party!",
+                           author:"25 Cent",
+                           date:"2011-12-02T17:57:28.556094Z"
+                       }
+
+                   ]
+                },{
+                  _id:260,
+                  name:'Functional Training', 
+                  image: 'images/sports/girl_weights.jpeg',
+                  category: 'viernes', 
+                  label:'Especial',
+                  price:'7:00 pm',
+                  description:'Esta clase particular es una mezcla de Simba y madre de baile una vez más se sabe cuando lo termine.',
+                   comments: [
+                       {
+                           rating:5,
+                           comment:"Great clase",
+                           author:"Johna",
+                           date:"2012-10-16T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Esta clase te hace trabajar",
+                           author:"Paula",
+                           date:"2014-09-05T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"lo que uno Busca terminando lunes",
+                           author:"G",
+                           date:"2015-02-13T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"como baile la Cala",
+                           author:"Daniela",
+                           date:"2013-12-02T17:57:28.556094Z"
+                       },
+                       {
+                           rating:2,
+                           comment:"Ven y ver este clase!",
+                           author:"Lorena",
+                           date:"2011-12-02T17:57:28.556094Z"
+                       }
+
+
+                   ]
+                }
                 ];
     var promotions = [
         {

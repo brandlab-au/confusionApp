@@ -5,7 +5,7 @@ angular.module('confusionApp')
         .controller('MenuController', ['$scope', 'menuFactory', function($scope, menuFactory) {
             
             $scope.tab = 1;
-            $scope.filtText = '';
+            $scope.filtText = 'lunes';
             $scope.showDetails = false;
 
             $scope.sports= menuFactory.getSports();
@@ -14,14 +14,20 @@ angular.module('confusionApp')
             $scope.select = function(setTab) {
                 $scope.tab = setTab;
                 
-                if (setTab === 2) {
-                    $scope.filtText = "appetizer";
+                if (setTab === 1) {
+                    $scope.filtText = "lunes";
+                }
+                else if (setTab === 2) {
+                    $scope.filtText = "martes";
                 }
                 else if (setTab === 3) {
-                    $scope.filtText = "mains";
+                    $scope.filtText = "miercoles";
                 }
                 else if (setTab === 4) {
-                    $scope.filtText = "dessert";
+                    $scope.filtText = "jueves";
+                }
+                 else if (setTab === 5) {
+                    $scope.filtText = "viernes";
                 }
                 else {
                     $scope.filtText = "";
