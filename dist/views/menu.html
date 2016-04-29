@@ -10,43 +10,49 @@
                 <ul class="nav nav-tabs" role="tablist">
                     <li role="presentation"
                     data-ng-class="{active:isSelected(1)}">
-                        <a data-ng-click="select(1)" aria-controls="all menu" role="tab">
+                        <a data-ng-click="select(1)" aria-controls="lunes" role="tab">
                             lunes
                         </a>
                     </li>
                     <li role="presentation"
                     data-ng-class="{active:isSelected(2)}">
-                        <a data-ng-click="select(2)" aria-controls="appetizers" role="tab">
+                        <a data-ng-click="select(2)" aria-controls="martes" role="tab">
                             martes
                         </a>
                     </li>
                     <li role="presentation"
                     data-ng-class="{active:isSelected(3)}">
-                        <a data-ng-click="select(3)" aria-controls="mains" role="tab">
+                        <a data-ng-click="select(3)" aria-controls="miercoles" role="tab">
                             miércoles
                         </a>
                     </li>
                     <li role="presentation"
                     data-ng-class="{active:isSelected(4)}">
-                        <a data-ng-click="select(4)" aria-controls="desserts" role="tab">
+                        <a data-ng-click="select(4)" aria-controls="jueves" role="tab">
                             jueves
+                        </a>
+                    </li>
+                      <li role="presentation"
+                    data-ng-class="{active:isSelected(5)}">
+                        <a data-ng-click="select(5)" aria-controls="viernes" role="tab">
+                            viernes
                         </a>
                     </li>
                 </ul>
             </ul>
         </div>
         <ul class="media-list">
-            <li class="media" data-ng-repeat="dish in dishes | filter:filtText">
+            <li class="media" data-ng-repeat="dish in sports | filter:{ category: filtText }">
                 <div class="media-left media-middle">
                     <a ui-sref="app.dishdetails({id: dish._id})">
                     <img class="media-object img-thumbnail"
-                    ng-src={{dish.image}} alt="Uthappizza">
+                    ng-src={{dish.image}} alt={{dish.name}}>
                     </a>
                 </div>
                 <div class="media-body">
                     <h2 class="media-heading">{{dish.name}}
                         <span class="label label-danger">{{dish.label}}</span>
-                        <span class="badge">{{dish.price | currency}}</span>
+                        <span class="badge">{{dish.price}}</span>
                     </h2>
                     <p ng-show="showDetails">{{dish.description}}</p>
 

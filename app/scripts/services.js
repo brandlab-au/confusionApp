@@ -47,7 +47,7 @@ angular.module('confusionApp')
 
                    ]
                 },{
-                  _id:10,
+                  _id:1,
                   name:'Pilates',
                   image: 'images/sports/pilates.jpg',
                   category: 'lunes', 
@@ -89,7 +89,7 @@ angular.module('confusionApp')
                    ]
                 },
                 {
-                  _id:20,
+                  _id:2,
                   name:'Spinning', 
                   image: 'images/spinnign-1.jpg',
                   category: 'martes', 
@@ -130,9 +130,50 @@ angular.module('confusionApp')
 
                    ]
                 },
-               
                 {
-                  _id:30,
+                  _id:3,
+                  name:'Spinning', 
+                  image: 'images/spinnign-1.jpg',
+                  category: 'lunes', 
+                  label:'New Spinning',
+                  price:'6:30 am',
+                  description:'En realidad por la señora que no tiene tanta tiempo pero quiere quemar calorías qué clase puede ser mejor que está todo los lunes con Alfonso arrancar la semana como quieres sigurir.',
+                  comments: [
+                       {
+                           rating:5,
+                           comment:"Imagine all the eatables, living in conFusion!",
+                           author:"John Lemon",
+                           date:"2012-10-16T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+                           author:"Paul McVites",
+                           date:"2014-09-05T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"Eat it, just eat it!",
+                           author:"Michael Jaikishan",
+                           date:"2015-02-13T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Ultimate, Reaching for the stars!",
+                           author:"Ringo Starry",
+                           date:"2013-12-02T17:57:28.556094Z"
+                       },
+                       {
+                           rating:2,
+                           comment:"It's your birthday, we're gonna party!",
+                           author:"25 Cent",
+                           date:"2011-12-02T17:57:28.556094Z"
+                       }
+
+                   ]
+                },
+               {
+                  _id:4,
                   name:'Pilats', 
                   image: 'images/sports/pilates.jpg',
                   category: 'jueves', 
@@ -173,12 +214,53 @@ angular.module('confusionApp')
 
                    ]
                 },{
-                  _id:40,
+                  _id:5,
                   name:'Pilates ', 
                   image: 'images/Pilates.png',
                   category: 'viernes', 
                   label:'tums & bums',
-                  price:'tonificación',
+                  price:'6:30am',
+                  description:'Oye esa clase 1 toca por lo menos dos veces del mes si ayuda en realidad bajar los deberes de grasa mientras mantiene tonificado todos los músculos del abdomen y glúteo que a veces son difíciles colorizar y entrenar pero con esa clase nos promete que va a ver resultados.',
+                   comments: [
+                       {
+                           rating:5,
+                           comment:"no está fácil!",
+                           author:"John Lemon",
+                           date:"2012-10-16T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"no está fácil!",
+                           author:"Paul McVites",
+                           date:"2014-09-05T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"no está fácil!",
+                           author:"Michael Jaikishan",
+                           date:"2015-02-13T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"el profe, esta muy bien!",
+                           author:"Ringo Starry",
+                           date:"2013-12-02T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"Que buenas resultadtos !",
+                           author:"25 Cent",
+                           date:"2011-12-02T17:57:28.556094Z"
+                       }
+
+                   ]
+                },,{
+                  _id:6,
+                  name:'Pilates ', 
+                  image: 'images/Pilates.png',
+                  category: 'martes', 
+                  label:'tums & bums',
+                  price:'7:00 pm',
                   description:'Oye esa clase 1 toca por lo menos dos veces del mes si ayuda en realidad bajar los deberes de grasa mientras mantiene tonificado todos los músculos del abdomen y glúteo que a veces son difíciles colorizar y entrenar pero con esa clase nos promete que va a ver resultados.',
                    comments: [
                        {
@@ -214,7 +296,7 @@ angular.module('confusionApp')
 
                    ]
                 },{
-                  _id:50,
+                  _id:7,
                   name:'Cross Fit ', 
                   image: 'images/sports/cross2.jpg',
                   category: 'lunes', 
@@ -256,7 +338,7 @@ angular.module('confusionApp')
 
                    ]
                 },{
-                  _id:60,
+                  _id:8,
                   name:'Baile', 
                   image: 'images/sports/aerobic.jpg',
                   category: 'lunes', 
@@ -298,7 +380,7 @@ angular.module('confusionApp')
 
                    ]
                 },{
-                  _id:70,
+                  _id:9,
                   name:'Functional Training', 
                   image: 'images/sports/girl_ball.jpg',
                   category: 'lunes', 
@@ -340,7 +422,7 @@ angular.module('confusionApp')
 
                    ]
                 },{
-                  _id:80,
+                  _id:10,
                   name:'Pilates Training', 
                   image: 'images/sports/pilates.jpg',
                   category: 'lunes', 
@@ -382,7 +464,7 @@ angular.module('confusionApp')
 
                    ]
                 },{
-                  _id:90,
+                  _id:11,
                   name:'Spining Sprint ', 
                   image: 'images/spinning1.png',
                   category: 'lunes', 
@@ -424,7 +506,7 @@ angular.module('confusionApp')
 
                    ]
                 },{
-                  _id:100,
+                  _id:12,
                   name:'Bailoterapia',
                   image: 'images/sports/aerobic.jpg',
                   category: 'martes', 
@@ -465,7 +547,7 @@ angular.module('confusionApp')
 
                    ]
                 },{
-                  _id:105,
+                  _id:13,
                   name:'Cross fit ', 
                   image: 'images/sports/crossfit-girl_boy.jpg',
                   category: 'viernes', 
@@ -506,7 +588,7 @@ angular.module('confusionApp')
 
                    ]
                 },{
-                  _id:110,
+                  _id:14,
                   name:'Spinning ', 
                   image: 'images/sp/spsp.jpg',
                   category: 'viernes', 
@@ -547,7 +629,7 @@ angular.module('confusionApp')
 
                    ]
                 },{
-                  _id:120,
+                  _id:15,
                   name:'Cross Fit',
                   image: 'images/sports/cross.jpg',
                   category: 'martes', 
@@ -588,7 +670,7 @@ angular.module('confusionApp')
 
                    ]
                 },{
-                  _id:140,
+                  _id:16,
                   name:'Spining Sprint ', 
                   image: 'images/spinning1.png',
                   category: 'martes', 
@@ -630,7 +712,7 @@ angular.module('confusionApp')
 
                    ]
                 },{
-                  _id:150,
+                  _id:17,
                   name:'Spinning', 
                   image: 'images/spinnign-1.jpg',
                   category: 'miercoles', 
@@ -671,7 +753,7 @@ angular.module('confusionApp')
 
                    ]
                 },{
-                  _id:160,
+                  _id:18,
                   name:'Cross Fit ', 
                   image: 'images/sports/cross2.jpg',
                   category: 'miercoles', 
@@ -713,7 +795,7 @@ angular.module('confusionApp')
 
                    ]
                 },{
-                  _id:170,
+                  _id:19,
                   name:'Pilates ', 
                   image: 'images/yoga.jpg',
                   category: 'miercoles', 
@@ -754,7 +836,7 @@ angular.module('confusionApp')
 
                    ]
                 },{
-                  _id:180,
+                  _id:20,
                   name:'Bailoterapia',
                   image: 'images/sports/aerobic.jpg',
                   category: 'miercoles', 
@@ -795,7 +877,7 @@ angular.module('confusionApp')
 
                    ]
                 },{
-                  _id:190,
+                  _id:21,
                   name:'Spinning', 
                   image: 'images/spinnign-1.jpg',
                   category: 'miercoles', 
@@ -836,7 +918,7 @@ angular.module('confusionApp')
 
                    ]
                 },{
-                  _id:200,
+                  _id:22,
                   name:'Spinning', 
                   image: 'images/SPINNING-2-.jpg',
                   category: 'jueves', 
@@ -877,7 +959,91 @@ angular.module('confusionApp')
 
                    ]
                 },{
-                  _id:210,
+                  _id:23,
+                  name:'Spinning', 
+                  image: 'images/spinning1.png',
+                  category: 'jueves', 
+                  label:'Tonificación',
+                  price:'7:00 pm',
+                  description:'Esta clase particular es una mezcla de Simba y madre de baile una vez más se sabe cuando lo termine.',
+                   comments: [
+                       {
+                           rating:5,
+                           comment:"Great clase",
+                           author:"Johna",
+                           date:"2012-10-16T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Esta clase te hace trabajar",
+                           author:"Paula",
+                           date:"2014-09-05T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"lo que uno Busca terminando lunes",
+                           author:"G",
+                           date:"2015-02-13T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"como baile la Cala",
+                           author:"Daniela",
+                           date:"2013-12-02T17:57:28.556094Z"
+                       },
+                       {
+                           rating:2,
+                           comment:"Ven y ver este clase!",
+                           author:"Lorena",
+                           date:"2011-12-02T17:57:28.556094Z"
+                       }
+
+
+                   ]
+                },,{
+                  _id:24,
+                  name:'Pilates', 
+                  image: 'images/p.png',
+                  category: 'jueves', 
+                  label:'Tonificación',
+                  price:'7:00 pm',
+                  description:'Esta clase particular es una mezcla de Simba y madre de baile una vez más se sabe cuando lo termine.',
+                   comments: [
+                       {
+                           rating:5,
+                           comment:"Great clase",
+                           author:"Johna",
+                           date:"2012-10-16T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"Esta clase te hace trabajar",
+                           author:"Paula",
+                           date:"2014-09-05T17:57:28.556094Z"
+                       },
+                       {
+                           rating:3,
+                           comment:"lo que uno Busca terminando lunes",
+                           author:"G",
+                           date:"2015-02-13T17:57:28.556094Z"
+                       },
+                       {
+                           rating:4,
+                           comment:"como baile la Cala",
+                           author:"Daniela",
+                           date:"2013-12-02T17:57:28.556094Z"
+                       },
+                       {
+                           rating:2,
+                           comment:"Ven y ver este clase!",
+                           author:"Lorena",
+                           date:"2011-12-02T17:57:28.556094Z"
+                       }
+
+
+                   ]
+                },{
+                  _id:25,
                   name:'Cross Fit ', 
                   image: 'images/sports/cross.jpg',
                   category: 'jueves', 
@@ -919,7 +1085,7 @@ angular.module('confusionApp')
 
                    ]
                 },{
-                  _id:220,
+                  _id:26,
                   name:'Fit combat', 
                   image: 'images/sports/combat.jpg',
                   category: 'jueves', 
@@ -961,9 +1127,9 @@ angular.module('confusionApp')
 
                    ]
                 },{
-                  _id:220,
+                  _id:27,
                   name:'Spinning', 
-                  image: 'images/spinning group.jpg',
+                  image: 'images/spinning_group.jpg',
                   category: 'miercoles', 
                   label:'Fast Spinning',
                   price:'7:00 pm',
@@ -1002,7 +1168,7 @@ angular.module('confusionApp')
 
                    ]
                 },{
-                  _id:230,
+                  _id:28,
                   name:'Pilates ', 
                   image: 'images/p.png',
                   category: 'viernes', 
@@ -1043,7 +1209,7 @@ angular.module('confusionApp')
 
                    ]
                 },{
-                  _id:240,
+                  _id:29,
                   name:'Salsa ', 
                   image: 'images/sports/Zumba_dance.jpg',
                   category: 'viernes', 
@@ -1084,12 +1250,12 @@ angular.module('confusionApp')
 
                    ]
                 },{
-                  _id:250,
+                  _id:30,
                   name:'Spinning', 
                   image: 'images/spinning1.png',
                   category: 'viernes', 
-                  label:'Fast Spinning',
-                  price:'7:00 pm',
+                  label:'Fast furioso',
+                  price:'6:30 pm',
                   description:'En realidad por la señora que no tiene tanta tiempo pero quiere quemar calorías qué clase puede ser mejor que está todo los lunes con Alfonso arrancar la semana como quieres sigurir.',
                   comments: [
                        {
@@ -1125,12 +1291,12 @@ angular.module('confusionApp')
 
                    ]
                 },{
-                  _id:260,
+                  _id:31,
                   name:'Functional Training', 
                   image: 'images/sports/girl_weights.jpeg',
                   category: 'viernes', 
                   label:'Especial',
-                  price:'7:00 pm',
+                  price:'7:30 pm',
                   description:'Esta clase particular es una mezcla de Simba y madre de baile una vez más se sabe cuando lo termine.',
                    comments: [
                        {
