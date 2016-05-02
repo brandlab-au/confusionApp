@@ -4,31 +4,30 @@ angular.module('confusionApp')
 
 .service('menuFactory', function() {
 
-    var sports=[
-                 {
+    var sports=[{
                   _id:0,
-                  name:'Pilates extrema',
-                  image: 'images/sports/pilates.jpg',
+                  name:'Spinning', 
+                  image: 'images/spinnign-1.jpg',
                   category: 'martes', 
-                  label:'Difícil',
+                  label:'New Spinning',
                   price:'6:30 am',
-                  description:'Es una clase única, que combina flexibilidad fuerza resistencia y habilidades generales las clases están diseñadas para diferentes niveles, pero los que empujan a sí mismos más caliente que podían esperar de 290 calorías sesiones de 20 minutos en el tiempo para los débiles de corazón esperar grandes resultados.',
-                   comments: [
+                  description:'En realidad por la señora que no tiene tanta tiempo pero quiere quemar calorías qué clase puede ser mejor que está todo los lunes con Alfonso arrancar la semana como quieres sigurir.',
+                  comments: [
                        {
                            rating:5,
-                           comment:"Excelente clase excelente instructor",
+                           comment:"Imagine all the eatables, living in conFusion!",
                            author:"John Lemon",
                            date:"2012-10-16T17:57:28.556094Z"
                        },
                        {
                            rating:4,
-                           comment:"If you want results and don't have time try this out ",
+                           comment:"Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
                            author:"Paul McVites",
                            date:"2014-09-05T17:57:28.556094Z"
                        },
                        {
                            rating:3,
-                           comment:"Esta es una gran clase, tengo todo la intención de obtener mejores  técnicas",
+                           comment:"Eat it, just eat it!",
                            author:"Michael Jaikishan",
                            date:"2015-02-13T17:57:28.556094Z"
                        },
@@ -40,13 +39,14 @@ angular.module('confusionApp')
                        },
                        {
                            rating:2,
-                           comment:"Mantener el buen trabajo jorge nos vemos pronto!",
+                           comment:"It's your birthday, we're gonna party!",
                            author:"25 Cent",
                            date:"2011-12-02T17:57:28.556094Z"
                        }
 
                    ]
-                },{
+                },
+                {
                   _id:1,
                   name:'Pilates',
                   image: 'images/sports/pilates.jpg',
@@ -87,31 +87,30 @@ angular.module('confusionApp')
                        }
 
                    ]
-                },
-                {
+                }, {
                   _id:2,
-                  name:'Spinning', 
-                  image: 'images/spinnign-1.jpg',
+                  name:'Pilates extrema',
+                  image: 'images/sports/pilates.jpg',
                   category: 'martes', 
-                  label:'New Spinning',
+                  label:'Difícil',
                   price:'6:30 am',
-                  description:'En realidad por la señora que no tiene tanta tiempo pero quiere quemar calorías qué clase puede ser mejor que está todo los lunes con Alfonso arrancar la semana como quieres sigurir.',
-                  comments: [
+                  description:'Es una clase única, que combina flexibilidad fuerza resistencia y habilidades generales las clases están diseñadas para diferentes niveles, pero los que empujan a sí mismos más caliente que podían esperar de 290 calorías sesiones de 20 minutos en el tiempo para los débiles de corazón esperar grandes resultados.',
+                   comments: [
                        {
                            rating:5,
-                           comment:"Imagine all the eatables, living in conFusion!",
+                           comment:"Excelente clase excelente instructor",
                            author:"John Lemon",
                            date:"2012-10-16T17:57:28.556094Z"
                        },
                        {
                            rating:4,
-                           comment:"Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+                           comment:"If you want results and don't have time try this out ",
                            author:"Paul McVites",
                            date:"2014-09-05T17:57:28.556094Z"
                        },
                        {
                            rating:3,
-                           comment:"Eat it, just eat it!",
+                           comment:"Esta es una gran clase, tengo todo la intención de obtener mejores  técnicas",
                            author:"Michael Jaikishan",
                            date:"2015-02-13T17:57:28.556094Z"
                        },
@@ -123,7 +122,7 @@ angular.module('confusionApp')
                        },
                        {
                            rating:2,
-                           comment:"It's your birthday, we're gonna party!",
+                           comment:"Mantener el buen trabajo jorge nos vemos pronto!",
                            author:"25 Cent",
                            date:"2011-12-02T17:57:28.556094Z"
                        }
@@ -254,7 +253,7 @@ angular.module('confusionApp')
                        }
 
                    ]
-                },,{
+                },{
                   _id:6,
                   name:'Pilates ', 
                   image: 'images/Pilates.png',
@@ -714,7 +713,7 @@ angular.module('confusionApp')
                 },{
                   _id:17,
                   name:'Spinning', 
-                  image: 'images/spinnign-1.jpg',
+                  image: 'images/spinning_group.jpg',
                   category: 'miercoles', 
                   label:'New Spinning',
                   price:'6:30 am',
@@ -1000,10 +999,10 @@ angular.module('confusionApp')
 
 
                    ]
-                },,{
+                },{
                   _id:24,
                   name:'Pilates', 
-                  image: 'images/p.png',
+                  image: 'images/pilates_back.jpg',
                   category: 'jueves', 
                   label:'Tonificación',
                   price:'7:00 pm',
@@ -1128,10 +1127,10 @@ angular.module('confusionApp')
                    ]
                 },{
                   _id:27,
-                  name:'Spinning', 
-                  image: 'images/spinning_group.jpg',
+                  name:'Pilates', 
+                  image: 'images/sports/pilates.jpg',
                   category: 'miercoles', 
-                  label:'Fast Spinning',
+                  label:'Sides & form',
                   price:'7:00 pm',
                   description:'En realidad por la señora que no tiene tanta tiempo pero quiere quemar calorías qué clase puede ser mejor que está todo los lunes con Alfonso arrancar la semana como quieres sigurir.',
                   comments: [
@@ -1170,7 +1169,7 @@ angular.module('confusionApp')
                 },{
                   _id:28,
                   name:'Pilates ', 
-                  image: 'images/p.png',
+                  image: 'images/pilates_back.jpg',
                   category: 'viernes', 
                   label:'Bums',
                   price:'7:00 pm',
@@ -1345,7 +1344,7 @@ angular.module('confusionApp')
         }, {
                   _id:1,
                   name:'Durante el día', 
-                  image: 'images/p.png',
+                  image: 'images/pilates_back.jpg',
                   label:'New',
                   price:'8.00',
                   description:'Esta mes y probar una clase de Spinning 2 por 1 desde 9am - 4pm',
