@@ -43,7 +43,7 @@ angular.module('confusionApp')
             };
         }])
 
-        .controller('ContactController', ['$scope', function($scope) {
+        .controller('ContactController', ['$scope','$http', function($scope,$http) {
 
             $scope.feedback = {mychannel:"", firstName:"", lastName:"", agree:false, email:"" };
             
@@ -51,10 +51,11 @@ angular.module('confusionApp')
             
             $scope.channels = channels;
             $scope.invalidChannelSelection = false;
-                        
+             
+     
         }])
 
-        .controller('FeedbackController', ['$scope', function($scope) {
+        .controller('FeedbackController', ['$scope','$http', function($scope,$http) {
             
             $scope.sendFeedback = function() {
                 
@@ -71,7 +72,26 @@ angular.module('confusionApp')
                     $scope.feedbackForm.$setPristine();
                     console.log($scope.feedback);
                 }
-            };
+                
+                       // new form send email
+            
+            $http({
+                method: 'POST',
+                url: 'index.php',
+                data: $.param($scope.feedback),  // pass in data as strings
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' }  // set the headers so angular passing info as form data (not request payload)
+            })
+           .success(function(data) {
+            if (data.errors) {
+              // Showing errors.
+              
+            } else {
+              $scope.message = data.message;
+            }
+                });
+                
+        };
+           
         }])
 
         .controller('DishDetailController', ['$scope', '$stateParams', 'menuFactory', function($scope, $stateParams, menuFactory) {

@@ -6,12 +6,12 @@ angular.module('confusionApp')
 
     var sports=[{
                   _id:0,
-                  name:'Spinning', 
+                  name:'galapagos', 
                   image: 'images/spinnign-1.jpg',
                   category: 'martes', 
                   label:'New Spinning',
                   price:'6:30 am',
-                  description:'En realidad por la señora que no tiene tanta tiempo pero quiere quemar calorías qué clase puede ser mejor que está todo los lunes con Alfonso arrancar la semana como quieres sigurir.',
+                  description:'Thanks to a lack of natural predators, friendly wildlife such as playful sea lions and gigantic sea tortoises let visitors get up close and personal. This archipelago of about 19 islands and many smaller islets sprinkled 620 miles off Ecuador’s coast in the Pacific Ocean is a double World Heritage site (both land and sea are protected) and served as the inspiration for Charles Darwin’s Theory of Evolution.',
                   comments: [
                        {
                            rating:5,
@@ -53,7 +53,7 @@ angular.module('confusionApp')
                   category: 'lunes', 
                   label:'Moderate Todo cuerpo',
                   price:'6:30 am',
-                  description:'Pilates fuerza o resistencia combinada tenemos un excelente instructor aquí en Mck y sería fantástico si todo el mundo tuviera la oportunidad de tratar de entrenar con el, no es sólo un ejercicio por las mujeres , los hombres pueden beneficiarse de eso tambien.',
+                  description:'Thanks to a lack of natural predators, friendly wildlife such as playful sea lions and gigantic sea tortoises let visitors get up close and personal. This archipelago of about 19 islands and many smaller islets sprinkled 620 miles off Ecuador’s coast in the Pacific Ocean is a double World Heritage site (both land and sea are protected) and served as the inspiration for Charles Darwin’s Theory of Evolution.',
                    comments: [
                        {
                            rating:5,
@@ -89,12 +89,12 @@ angular.module('confusionApp')
                    ]
                 }, {
                   _id:2,
-                  name:'Pilates extrema',
+                  name:'Galapgos extrema',
                   image: 'images/sports/pilates.jpg',
                   category: 'martes', 
                   label:'Difícil',
                   price:'6:30 am',
-                  description:'Es una clase única, que combina flexibilidad fuerza resistencia y habilidades generales las clases están diseñadas para diferentes niveles, pero los que empujan a sí mismos más caliente que podían esperar de 290 calorías sesiones de 20 minutos en el tiempo para los débiles de corazón esperar grandes resultados.',
+                  description:'Thanks to a lack of natural predators, friendly wildlife such as playful sea lions and gigantic sea tortoises let visitors get up close and personal. This archipelago of about 19 islands and many smaller islets sprinkled 620 miles off Ecuador’s coast in the Pacific Ocean is a double World Heritage site (both land and sea are protected) and served as the inspiration for Charles Darwin’s Theory of Evolution.',
                    comments: [
                        {
                            rating:5,
@@ -136,7 +136,7 @@ angular.module('confusionApp')
                   category: 'lunes', 
                   label:'New Spinning',
                   price:'6:30 am',
-                  description:'En realidad por la señora que no tiene tanta tiempo pero quiere quemar calorías qué clase puede ser mejor que está todo los lunes con Alfonso arrancar la semana como quieres sigurir.',
+                  description:'Thanks to a lack of natural predators, friendly wildlife such as playful sea lions and gigantic sea tortoises let visitors get up close and personal. This archipelago of about 19 islands and many smaller islets sprinkled 620 miles off Ecuador’s coast in the Pacific Ocean is a double World Heritage site (both land and sea are protected) and served as the inspiration for Charles Darwin’s Theory of Evolution.',
                   comments: [
                        {
                            rating:5,
@@ -178,7 +178,7 @@ angular.module('confusionApp')
                   category: 'jueves', 
                   label:'Moderate tumms',
                   price:'6:30 am',
-                  description:'Funcional es ahora estará con nosotros durante un número de años y como nadie que participan en los desfiles el mejor medicamento para el entrenamiento sin el estrés que estás articulaciones se unen en favor Danie con un gran maestro.',
+                  description:'Thanks to a lack of natural predators, friendly wildlife such as playful sea lions and gigantic sea tortoises let visitors get up close and personal. This archipelago of about 19 islands and many smaller islets sprinkled 620 miles off Ecuador’s coast in the Pacific Ocean is a double World Heritage site (both land and sea are protected) and served as the inspiration for Charles Darwin’s Theory of Evolution.',
                    comments: [
                        {
                            rating:5,
@@ -215,11 +215,11 @@ angular.module('confusionApp')
                 },{
                   _id:5,
                   name:'Pilates ', 
-                  image: 'images/Pilates.png',
+                  image: 'images/Pilates_girls.jpg',
                   category: 'viernes', 
                   label:'tums & bums',
                   price:'6:30am',
-                  description:'Oye esa clase 1 toca por lo menos dos veces del mes si ayuda en realidad bajar los deberes de grasa mientras mantiene tonificado todos los músculos del abdomen y glúteo que a veces son difíciles colorizar y entrenar pero con esa clase nos promete que va a ver resultados.',
+                  description:'Thanks to a lack of natural predators, friendly wildlife such as playful sea lions and gigantic sea tortoises let visitors get up close and personal. This archipelago of about 19 islands and many smaller islets sprinkled 620 miles off Ecuador’s coast in the Pacific Ocean is a double World Heritage site (both land and sea are protected) and served as the inspiration for Charles Darwin’s Theory of Evolution.',
                    comments: [
                        {
                            rating:5,
@@ -256,11 +256,11 @@ angular.module('confusionApp')
                 },{
                   _id:6,
                   name:'Pilates ', 
-                  image: 'images/Pilates.png',
+                  image: 'images/Pilates_girls.jpg',
                   category: 'martes', 
                   label:'tums & bums',
                   price:'7:00 pm',
-                  description:'Oye esa clase 1 toca por lo menos dos veces del mes si ayuda en realidad bajar los deberes de grasa mientras mantiene tonificado todos los músculos del abdomen y glúteo que a veces son difíciles colorizar y entrenar pero con esa clase nos promete que va a ver resultados.',
+                  description:'Thanks to a lack of natural predators, friendly wildlife such as playful sea lions and gigantic sea tortoises let visitors get up close and personal. This archipelago of about 19 islands and many smaller islets sprinkled 620 miles off Ecuador’s coast in the Pacific Ocean is a double World Heritage site (both land and sea are protected) and served as the inspiration for Charles Darwin’s Theory of Evolution.',
                    comments: [
                        {
                            rating:5,
@@ -301,7 +301,7 @@ angular.module('confusionApp')
                   category: 'lunes', 
                   label:'Tonificación',
                   price:'6:30 am',
-                  description:'Esta clase particular es una mezcla de Simba y madre de baile una vez más se sabe cuando lo termine.',
+                  description:'Thanks to a lack of natural predators, friendly wildlife such as playful sea lions and gigantic sea tortoises let visitors get up close and personal. This archipelago of about 19 islands and many smaller islets sprinkled 620 miles off Ecuador’s coast in the Pacific Ocean is a double World Heritage site (both land and sea are protected) and served as the inspiration for Charles Darwin’s Theory of Evolution.',
                    comments: [
                        {
                            rating:5,
@@ -343,7 +343,7 @@ angular.module('confusionApp')
                   category: 'lunes', 
                   label:'Fast X lunes',
                   price:'6:30 pm',
-                  description:'Esta clase particular es una mezcla de Simba y madre de baile una vez más se sabe cuando lo termine.',
+                  description:'Thanks to a lack of natural predators, friendly wildlife such as playful sea lions and gigantic sea tortoises let visitors get up close and personal. This archipelago of about 19 islands and many smaller islets sprinkled 620 miles off Ecuador’s coast in the Pacific Ocean is a double World Heritage site (both land and sea are protected) and served as the inspiration for Charles Darwin’s Theory of Evolution.',
                    comments: [
                        {
                            rating:5,
@@ -385,7 +385,7 @@ angular.module('confusionApp')
                   category: 'lunes', 
                   label:'Especial',
                   price:'6:30 pm',
-                  description:'Esta clase particular es una mezcla de Simba y madre de baile una vez más se sabe cuando lo termine.',
+                  description:'Thanks to a lack of natural predators, friendly wildlife such as playful sea lions and gigantic sea tortoises let visitors get up close and personal. This archipelago of about 19 islands and many smaller islets sprinkled 620 miles off Ecuador’s coast in the Pacific Ocean is a double World Heritage site (both land and sea are protected) and served as the inspiration for Charles Darwin’s Theory of Evolution.',
                    comments: [
                        {
                            rating:5,
@@ -427,7 +427,7 @@ angular.module('confusionApp')
                   category: 'lunes', 
                   label:'Especial',
                   price:'7:00 pm',
-                  description:'Esta clase particular es una mezcla de Simba y madre de baile una vez más se sabe cuando lo termine.',
+                  description:'Thanks to a lack of natural predators, friendly wildlife such as playful sea lions and gigantic sea tortoises let visitors get up close and personal. This archipelago of about 19 islands and many smaller islets sprinkled 620 miles off Ecuador’s coast in the Pacific Ocean is a double World Heritage site (both land and sea are protected) and served as the inspiration for Charles Darwin’s Theory of Evolution.',
                    comments: [
                        {
                            rating:5,
@@ -465,11 +465,11 @@ angular.module('confusionApp')
                 },{
                   _id:11,
                   name:'Spining Sprint ', 
-                  image: 'images/spinning1.png',
+                  image: 'images/spinning1.jpg',
                   category: 'lunes', 
                   label:'Especial',
                   price:'7:00 pm',
-                  description:'Esta clase particular es una mezcla de Simba y madre de baile una vez más se sabe cuando lo termine.',
+                  description:'Thanks to a lack of natural predators, friendly wildlife such as playful sea lions and gigantic sea tortoises let visitors get up close and personal. This archipelago of about 19 islands and many smaller islets sprinkled 620 miles off Ecuador’s coast in the Pacific Ocean is a double World Heritage site (both land and sea are protected) and served as the inspiration for Charles Darwin’s Theory of Evolution.',
                    comments: [
                        {
                            rating:5,
@@ -511,7 +511,7 @@ angular.module('confusionApp')
                   category: 'martes', 
                   label:'Moderate Todo cuerpo',
                   price:'6:30 pm',
-                  description:'Pilates fuerza o resistencia combinada tenemos un excelente instructor aquí en Mck y sería fantástico si todo el mundo tuviera la oportunidad de tratar de entrenar con el, no es sólo un ejercicio por las mujeres , los hombres pueden beneficiarse de eso tambien.',
+                  description:'Thanks to a lack of natural predators, friendly wildlife such as playful sea lions and gigantic sea tortoises let visitors get up close and personal. This archipelago of about 19 islands and many smaller islets sprinkled 620 miles off Ecuador’s coast in the Pacific Ocean is a double World Heritage site (both land and sea are protected) and served as the inspiration for Charles Darwin’s Theory of Evolution.',
                    comments: [
                        {
                            rating:5,
@@ -552,7 +552,7 @@ angular.module('confusionApp')
                   category: 'viernes', 
                   label:'Sprint',
                   price:'6:30 am',
-                  description:'Oye esa clase 1 toca por lo menos dos veces del mes si ayuda en realidad bajar los deberes de grasa mientras mantiene tonificado todos los músculos del abdomen y glúteo que a veces son difíciles colorizar y entrenar pero con esa clase nos promete que va a ver resultados.',
+                  description:'Thanks to a lack of natural predators, friendly wildlife such as playful sea lions and gigantic sea tortoises let visitors get up close and personal. This archipelago of about 19 islands and many smaller islets sprinkled 620 miles off Ecuador’s coast in the Pacific Ocean is a double World Heritage site (both land and sea are protected) and served as the inspiration for Charles Darwin’s Theory of Evolution.',
                    comments: [
                        {
                            rating:5,
@@ -634,7 +634,7 @@ angular.module('confusionApp')
                   category: 'martes', 
                   label:'Difícil',
                   price:'7:00 pm',
-                  description:'Es una clase única, que combina flexibilidad fuerza resistencia y habilidades generales las clases están diseñadas para diferentes niveles, pero los que empujan a sí mismos más caliente que podían esperar de 290 calorías sesiones de 20 minutos en el tiempo para los débiles de corazón esperar grandes resultados.',
+                  description:'Thanks to a lack of natural predators, friendly wildlife such as playful sea lions and gigantic sea tortoises let visitors get up close and personal. This archipelago of about 19 islands and many smaller islets sprinkled 620 miles off Ecuador’s coast in the Pacific Ocean is a double World Heritage site (both land and sea are protected) and served as the inspiration for Charles Darwin’s Theory of Evolution.',
                    comments: [
                        {
                            rating:5,
@@ -671,11 +671,11 @@ angular.module('confusionApp')
                 },{
                   _id:16,
                   name:'Spining Sprint ', 
-                  image: 'images/spinning1.png',
+                  image: 'images/spinning1.jpg',
                   category: 'martes', 
                   label:'Especial',
                   price:'7:00 pm',
-                  description:'Esta clase particular es una mezcla de Simba y madre de baile una vez más se sabe cuando lo termine.',
+                  description:'Thanks to a lack of natural predators, friendly wildlife such as playful sea lions and gigantic sea tortoises let visitors get up close and personal. This archipelago of about 19 islands and many smaller islets sprinkled 620 miles off Ecuador’s coast in the Pacific Ocean is a double World Heritage site (both land and sea are protected) and served as the inspiration for Charles Darwin’s Theory of Evolution.',
                    comments: [
                        {
                            rating:5,
@@ -717,7 +717,7 @@ angular.module('confusionApp')
                   category: 'miercoles', 
                   label:'New Spinning',
                   price:'6:30 am',
-                  description:'En realidad por la señora que no tiene tanta tiempo pero quiere quemar calorías qué clase puede ser mejor que está todo los lunes con Alfonso arrancar la semana como quieres sigurir.',
+                  description:'Thanks to a lack of natural predators, friendly wildlife such as playful sea lions and gigantic sea tortoises let visitors get up close and personal. This archipelago of about 19 islands and many smaller islets sprinkled 620 miles off Ecuador’s coast in the Pacific Ocean is a double World Heritage site (both land and sea are protected) and served as the inspiration for Charles Darwin’s Theory of Evolution.',
                   comments: [
                        {
                            rating:5,
@@ -800,7 +800,7 @@ angular.module('confusionApp')
                   category: 'miercoles', 
                   label:'6:30 am',
                   price:'tonificación',
-                  description:'Oye esa clase 1 toca por lo menos dos veces del mes si ayuda en realidad bajar los deberes de grasa mientras mantiene tonificado todos los músculos del abdomen y glúteo que a veces son difíciles colorizar y entrenar pero con esa clase nos promete que va a ver resultados.',
+                  description:'Thanks to a lack of natural predators, friendly wildlife such as playful sea lions and gigantic sea tortoises let visitors get up close and personal. This archipelago of about 19 islands and many smaller islets sprinkled 620 miles off Ecuador’s coast in the Pacific Ocean is a double World Heritage site (both land and sea are protected) and served as the inspiration for Charles Darwin’s Theory of Evolution.',
                    comments: [
                        {
                            rating:5,
@@ -841,7 +841,7 @@ angular.module('confusionApp')
                   category: 'miercoles', 
                   label:'Moderate Todo cuerpo',
                   price:'6:30 pm',
-                  description:'Pilates fuerza o resistencia combinada tenemos un excelente instructor aquí en Mck y sería fantástico si todo el mundo tuviera la oportunidad de tratar de entrenar con el, no es sólo un ejercicio por las mujeres , los hombres pueden beneficiarse de eso tambien.',
+                  description:'Thanks to a lack of natural predators, friendly wildlife such as playful sea lions and gigantic sea tortoises let visitors get up close and personal. This archipelago of about 19 islands and many smaller islets sprinkled 620 miles off Ecuador’s coast in the Pacific Ocean is a double World Heritage site (both land and sea are protected) and served as the inspiration for Charles Darwin’s Theory of Evolution',
                    comments: [
                        {
                            rating:5,
@@ -882,7 +882,7 @@ angular.module('confusionApp')
                   category: 'miercoles', 
                   label:'New Spinning',
                   price:'7:00 pm',
-                  description:'En realidad por la señora que no tiene tanta tiempo pero quiere quemar calorías qué clase puede ser mejor que está todo los lunes con Alfonso arrancar la semana como quieres sigurir.',
+                  description:'Thanks to a lack of natural predators, friendly wildlife such as playful sea lions and gigantic sea tortoises let visitors get up close and personal. This archipelago of about 19 islands and many smaller islets sprinkled 620 miles off Ecuador’s coast in the Pacific Ocean is a double World Heritage site (both land and sea are protected) and served as the inspiration for Charles Darwin’s Theory of Evolution.',
                   comments: [
                        {
                            rating:5,
@@ -960,7 +960,7 @@ angular.module('confusionApp')
                 },{
                   _id:23,
                   name:'Spinning', 
-                  image: 'images/spinning1.png',
+                  image: 'images/spinning1.jpg',
                   category: 'jueves', 
                   label:'Tonificación',
                   price:'7:00 pm',
@@ -1251,7 +1251,7 @@ angular.module('confusionApp')
                 },{
                   _id:30,
                   name:'Spinning', 
-                  image: 'images/spinning1.png',
+                  image: 'images/spinning1.jpg',
                   category: 'viernes', 
                   label:'Fast furioso',
                   price:'6:30 pm',
@@ -1399,7 +1399,7 @@ angular.module('confusionApp')
                 },
                 {
                     name: "pilates",
-                    image: 'images/Pilates.png',
+                    image: 'images/Pilates_girls.jpg',
                     designation: "Cuarto seperado de Pilates",
                     abbr: "EC",
                     description: "El método Pilates es un entrenamiento de cuerpo integral, incluye ejercicios de fuerza, estiramientos, posturas sanas y respiraciones conscientes. El objetivo es fortalecer los músculos, mejorar la resistencia y la coordinación de los movimientos, estimulando la circulación y un mayor conocimiento de nuestro cuerpo. Esto puede cambiar positivamente nuestra vida y hacer a nuestro cuerpo más equilibrado. Si usted es un aficionado o un profesional, tenemos lo que necesita para un camino mejor y más saludable"
